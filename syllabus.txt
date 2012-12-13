@@ -1,4 +1,4 @@
-Syllabus
+Syllabus for you all
  
 What is Git
    * content management
@@ -27,6 +27,8 @@ Git from the command line
    * Git History 
    * Branches 
    * Diffing
+   * MERGING HELL
+
 
 Remotes
    * Push
