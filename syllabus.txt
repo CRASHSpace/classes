@@ -1,0 +1,57 @@
+Syllabus
+ 
+What is Git
+   * content management
+      * content addressable storage : 2002
+      * hashing
+      * object model: blobs, trees, commits
+         * http://shaiekh.com/home/git/how-git-stores-information/
+         * http://www.gitguys.com/topics/git-object-tag
+   * distributed : nobody is important 
+      * pros : no SPOF / no SPOC / lets go remote
+      * cons : SPOC / complexity / confusion
+   * Modality : http://ndpsoftware.com/git-cheatsheet.html#loc=stash;
+      * important! filesystem, staging, repo 
+      * optional: stash 
+      * optional: remote
+      * confusing: anonymous branches (let's skip this for now)
+
+Git from the command line 
+   * Git on the Mac and Windows and Linux
+      * Microsoft: 
+      * Mac Osx : http://code.google.com/p/git-osx-installer
+         * Or better yet Macports are rad !
+         * sudo port install git-core +svn +doc +bash_completion +gitweb
+   * Creating a repository 
+   * Adding, Removing and Committing files 
+   * Git History 
+   * Branches 
+   * Diffing
+
+Remotes
+   * Push
+   * pull
+   * Fetch 
+
+What is github 
+
+   * Using Github for collaboration 
+   * The pull request 
+   * Network graph 
+   * Issue Tracker 
+   * Continuous Integration with Travis-CI 
+   * Work flows 
+      * 3 Guys with Laptops (patches, apache, thumb drives)
+      * Github’s internal Work flow 
+         * pull and push, 
+         * permissions, 
+         * hooks, 
+         * kind of centralized for ease of use
+      * Linux Kernel Team : 
+         * host many repos
+        * circle of trust
+      * Open Source Project... whatever. works
+		* post pull requests
+
+
+
