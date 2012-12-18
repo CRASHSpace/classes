@@ -1,4 +1,6 @@
 Syllabus
+
+Slides: http://rogerdudler.github.com/git-guide/
  
 What is Git
    * content management
@@ -7,9 +9,11 @@ What is Git
       * object model: blobs, trees, commits
          * http://shaiekh.com/home/git/how-git-stores-information/
          * http://www.gitguys.com/topics/git-object-tag
+
    * distributed : nobody is important 
       * pros : no SPOF / no SPOC / lets go remote
       * cons : SPOC / complexity / confusion
+
    * Modality : http://ndpsoftware.com/git-cheatsheet.html#loc=stash;
       * important! filesystem, staging, repo 
       * optional: stash 
@@ -22,6 +26,14 @@ Git from the command line
       * Mac Osx : http://code.google.com/p/git-osx-installer
          * Or better yet Macports are rad !
          * sudo port install git-core +svn +doc +bash_completion +gitweb
+		 * bash completion and colors!
+		 * bash completion is amazing: 
+		cp ./local/share/bash-completion/completions/git ~/.git-bash-completion.sh
+		echo "[ -f ~/.git-bash-completion.sh ] && . ~/.git-bash-completion.sh" >> ~/.profile
+		. ~/.profile
+		 * color! 
+		git config --global color.ui true
+
    * Creating a repository 
    * Adding, Removing and Committing files 
    * Git History 
@@ -47,11 +59,14 @@ What is github
          * permissions, 
          * hooks, 
          * kind of centralized for ease of use
+
       * Linux Kernel Team : 
          * host many repos
         * circle of trust
+
       * Open Source Project... whatever. works
 		* post pull requests
 
 
 
+hi
