@@ -39,6 +39,8 @@ Git from the command line
    * Git History 
    * Branches 
    * Diffing
+   * MERGING HELL
+
 
 Remotes
    * Push
