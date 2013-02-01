@@ -33,7 +33,7 @@ This example code is in the public domain.
  TODO: matt: make new method
  
  */
-
+boolean onState = false;
 // constants won't change. They're used here to 
 // set pin numbers:
 const int buttonPin = 2;     // the number of the pushbutton pin
@@ -50,7 +50,7 @@ int lastButtonState = LOW;   // the previous reading from the input pin
 // the following variables are long's because the time, measured in miliseconds,
 // will quickly become a bigger number than can be stored in an int.
 long lastDebounceTime = 0;  // the last time the output pin was toggled
-long debounceDelay = 50;    // the debounce time; increase if the output flickers
+long debounceDelay = 500;    // the debounce time; increase if the output flickers
 
 void setup() {
   pinMode(buttonPin, INPUT_PULLUP);
@@ -81,12 +81,13 @@ void loop() {
   // logic is inverted. It goes HIGH when it's open,
   // and LOW when it's pressed. Turn on pin 13 when the 
   // button's pressed, and off when it's not:
-  if (sensorVal == HIGH) {
-    digitalWrite(ledPin, LOW);
+  if (reading == HIGH) {
+// nothing
   } 
   else {
-    digitalWrite(ledPin, HIGH);
-  }
+    onState = !onState;
+    digitalWrite(ledPin,onState);
+   }
 
   // save the reading.  Next time through the loop,
   // it'll be the lastButtonState:
