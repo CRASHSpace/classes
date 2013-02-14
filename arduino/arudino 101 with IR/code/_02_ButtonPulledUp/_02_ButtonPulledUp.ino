@@ -19,9 +19,12 @@
  
  This example code is in the public domain
  
- TODO: matt: change the on/off correlation
-  - learn digitalRead(int, boolean)
-  - learn if-else
+ Updated by @mpinner for arduino intro courses at @crashspacela
+ 
+ You should learn:
+  - digitalRead(int, boolean)
+  - if-else
+  - learn Serial
 
  */
 
@@ -56,6 +59,8 @@ void loop(){
     digitalWrite(13, HIGH);
   }
   */
+  
+  delay(100); // this is here to keep your serial monitor happy and avoid overwhelming the serial buffer 
 }
 
 

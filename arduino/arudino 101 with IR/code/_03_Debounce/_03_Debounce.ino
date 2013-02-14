@@ -26,21 +26,23 @@
  modified 30 Aug 2011
  by Limor Fried
  
-This example code is in the public domain.
+ This example code is in the public domain.
+
+ Updated by @mpinner for arduino intro courses at @crashspacela
  
- http://www.arduino.cc/en/Tutorial/Debounce
- 
- TODO: matt: make new method
+ You should learn:
+  - what is bounce in a switch/button and how to eliminate it without a delay
+
  
  */
-boolean onState = false;
-// constants won't change. They're used here to 
-// set pin numbers:
-const int buttonPin = 2;     // the number of the pushbutton pin
-const int ledPin =  13;      // the number of the LED pin
+
+#define BUTTON_PIN 2
+#define LED_PIN 13
   // Pin 13: Arduino has an LED connected on pin 13
   // Pin 11: Teensy 2.0 has the LED on pin 11
   // Pin 6: Teensy++ 2.0 has the LED on pin 6
+ 
+boolean onState = false;
 
 // Variables will change:
 int ledState = HIGH;         // the current state of the output pin
