@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Test_File" xmlns:ev="http://www.w3.org/2001/xml-events"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="800px" height="800px"
+	 viewBox="0 0 800 800" enable-background="new 0 0 800 800" xml:space="preserve">
+<radialGradient id="SVGID_1_" cx="94.876" cy="796.0068" r="0.5" gradientTransform="matrix(761.9048 0 0 -761.9048 -71907.5 606859.6875)" gradientUnits="userSpaceOnUse">
+	<stop  offset="0" style="stop-color:#FFFF00"/>
+	<stop  offset="0.75" style="stop-color:#FFFF00"/>
+	<stop  offset="0.95" style="stop-color:#EEEE00"/>
+	<stop  offset="1" style="stop-color:#E8E800"/>
+</radialGradient>
+<circle fill="url(#SVGID_1_)" stroke="#000000" stroke-width="0.15" cx="379" cy="379" r="380.952"/>
+<radialGradient id="SVGID_2_" cx="94.5762" cy="796.3057" r="0.5" gradientTransform="matrix(761.9048 0 0 -761.9048 -71907.5 606859.6875)" gradientUnits="userSpaceOnUse">
+	<stop  offset="0" style="stop-color:#FFFFFF;stop-opacity:0.7"/>
+	<stop  offset="1" style="stop-color:#FFFFFF;stop-opacity:0"/>
+</radialGradient>
+<circle fill="url(#SVGID_2_)" cx="379" cy="379" r="380.952"/>
+<g id="right">
+	<path fill="none" stroke="#000000" stroke-width="0.5" stroke-linecap="round" d="M580.904,430.429
+		c8.896,34.529,40.552,58.271,76.191,57.143"/>
+</g>
+<g transform="scale(-1,1)">
+	<g id="right_1_">
+		<path fill="none" stroke="#000000" stroke-width="0.5" stroke-linecap="round" d="M177.095,430.429
+			c-8.896,34.529-40.551,58.271-76.19,57.143"/>
+	</g>
+</g>
+<path fill="none" stroke="#000000" stroke-width="0.75" d="M150.429,474.238c65.061,126.236,220.138,175.829,346.374,110.769
+	c47.545-24.504,86.265-63.225,110.769-110.769c-52.599,126.236-197.573,185.932-323.81,133.333
+	C223.472,582.451,175.549,534.527,150.429,474.238"/>
+<ellipse cx="493.286" cy="245.667" rx="47.619" ry="76.19"/>
+<ellipse cx="264.714" cy="245.667" rx="47.619" ry="76.19"/>
+</svg>

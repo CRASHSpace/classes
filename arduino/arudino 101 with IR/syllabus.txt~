@@ -1,0 +1,90 @@
+Arduino : an intro
+
+a community :
+ - LOTs of help, 
+ - tutorials, examples, projects,
+ - forums, libraries, kits 
+
+microcontroller :
+ - a very small (micro) computer
+ - i/o, ram, storage, bias, network!
+ - you can add your own peripherals
+
+open standard :
+ - anyone can improve it
+ - it works with everything
+
+ - this makes it cheap
+
+development environment : 
+ - your software interface
+ - add, compile, run, and debug code
+ - built for students to be easy
+
+programming language :
+ - the syntax and semantics are pretty useful
+
+ - java/c... sorta
+ - blink
+
+
+bootloader :
+ - an OS
+ - that loads code
+ - it is The Magic
+
+learn electronics:
+ - circuits are easy
+ - low power and no soldering
+ - reusable parts make for free play
+
+input / output:
+ - many pins for input and output
+ - capable of analog and digital
+ - serial communication
+ 
+programs are simple: 
+ - variables
+ - setup and loop
+ - libraries
+
+Analog and Digital:
+ - All Arduino signals are either Analog or Digital
+ - All computers including Arduino, only understand Digital
+ - It is important to understand the difference between Analog and Digital signals since Analog signals require an Analog to Digital conversion
+
+
+
+Output
+
+Output is always Digital
+
+To Output a Digital signal (On or Off) use this code:
+
+digitalWrite ( pinNumber , value );
+
+Where value is HIGH or LOW
+
+To output a signal that pretends to be Analog use this code:
+
+analogWrite ( pinNumber, value );
+Where value is a number 0 - 255
+
+
+Output is always Digital
+
+Using a Digital signal that pretends to be an Analog signal is called Pulse Width Modulation
+
+Use Pulse Width Modulation, or P.W.M., for anything that requires a signal between HIGH and LOW
+
+P.W.M. is available on Arduino pins # 3, 5, 6, 9, 10, and 11
+
+
+
+
+
+
+http://blog.littlebirdelectronics.com/47809339
+http://learn.adafruit.com/ir-sensor
+https://www.sparkfun.com/tutorials/291
+https://speakerdeck.com/shepbook/getting-bootstrapped-with-git-and-githubhttps://github.com/blog/120-new-to-githttp://try.github.com/levels/1/challenges/1http://git-scm.com/documentation
