@@ -1,66 +1,60 @@
-
-Processing
-
+Processing Syllabus
 
 Processing is a wonderful language for first-time programmers. It is also great for recreational programming, which is a wonderful kind of programming for learning — I find it is much better to play at it than to work at it.
 
 But, the name is unfortunate.
 
-ide: 
- - download from processing.org
- - run
- - save
+ide:
+- download from processing.org
+- run (Ctrl-r)
+- save (Ctrl-t)
+- find help (shift-Ctrl-f)
 
+code:
+- share on openprocessing.org
+- comments // and /* with */
+- white space is awesome
+- type safety makes compilers awesome
+- verbs/functions/methods are denoted with '(' and ')'
+- commands end with ';'
 
+drawing shapes:
+- ellipse, rect, triangle
+- point, line,
+- order matters
+- 3d stuff exists... much later
 
-code:  
- - share on openprocessing.orf
- - comments
- - white space is awesome
- - type safety makes compilers awesome
- - verbs/functions are denoted with '(' and ')'
- - commands end with ';'
+colors:
+- size, background,
+- stroke, strokeWeight,
+- fill,
+- colorModes and HSB
+- alpha is cool
 
-drawing shapes: 
- - ellipse, rect, triangle
- - point, line,
- - order matters 
- - 3d stuff exists... much later
-
-colors: 
- - background, 
- - stroke,  strokeWeight, 
- - fill,
- - colorModes
- - alpha is cool
-
-syntax:  
- - now we are really programming
- - functions, variables, 
- - draw, setup
+syntax:
+- now we are really programming
+- functions, variables,
+- draw, setup
 
 animation:
- - now we're having fun
- - standard variables: mouseX, mouseY, frameCount
- - lots of math operators: +, -, *, /, %, <<, >>, &, |
+- now we're having fun
+- standard variables: mouseX, mouseY, frameCount
+- lots of math operators: +, -, *, /, %, <<, >>, &, |
+control flow: if, else, while, for,
 
-control flow: if, else, while, for, 
+images:
+- this is crazy town and you are in it
+- loadImage, imageMode, image,
 
-images: 
- - this is crazy town and you are in it
- - loadImage, imageMode, image, 
-
-libraries: 
- - sound
- - serial
- - midi
- - the internet!
+libraries:
+- sound : minim… wow.
+- LeapMotion exists. find the library on the internet!
 
 cheat sheet:
- - http://www.farmapp.info/327/processing_tdavis.pdf
+- http://www.farmapp.info/327/processing_tdavis.pdf
 
 great resources and code walk throughs from @jbum:
- - http://joyofprocessing.com/blog/author/admin/page/49/
- - http://joyofprocessing.com/blog/2011/10/hello-again-world/
+- http://joyofprocessing.com/blog/author/admin/page/49/
+- http://joyofprocessing.com/blog/2011/10/hello-again-world/
 
 thanks!
