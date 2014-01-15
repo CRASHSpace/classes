@@ -1,0 +1,27 @@
+h1{ font-size: 24px; }
+h2{ font-size: 20px; text-indent: 20px; }
+h3{ font-size: 18px; text-indent: 40px; }
+h4{ font-size: 18px; text-indent: 60px; } 
+h5{ font-size: 17px; text-indent: 80px; } 
+h6{ font-size: 17px; text-indent: 100px; font-style: italic; } 
+
+h1.title{ font-size: 38px; }
+h2.title{ font-size: 28px; }
+
+p{ text-align: justify; }
+
+ul.none {list-style-type: none} 
+ul.flush {margin:0; padding:0; list-style-type: none }
+
+/* img{ margin-bottom: 15px; } */
+img.headright {margin-left: 15px; margin-top: 5px; margin-bottom: 10px;  } 
+img.floatright {float: right; margin-top: 15px; margin-bottom: 15px; margin-left: 5px;} 
+img.left  {padding-right: 15px; padding-bottom: 10px; }
+img.grid { margin-top: 15px; margin-bottom: 15px; } 
+
+dl {text-indent: 15px; }
+dt{ font-weight: bold; }
+
+
+p.bot{ position: absolute; bottom: 0px }  
+div.rel { position: relative; }      

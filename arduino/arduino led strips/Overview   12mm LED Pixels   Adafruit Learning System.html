@@ -1,0 +1,931 @@
+<!DOCTYPE html>
+<!-- saved from url=(0050)http://learn.adafruit.com/12mm-led-pixels?view=all -->
+<html lang="en-US"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+    <title>Overview | 12mm LED Pixels | Adafruit Learning System</title>
+  <meta content="authenticity_token" name="csrf-param">
+<meta content="3L/26j2LOvebIHHiZCm31WMe64CsVqR+rBaQA+ANARo=" name="csrf-token">
+  <link href="http://learn.adafruit.com/feed" rel="alternate" title="ATOM" type="application/atom+xml">
+  <link href="http://learn.adafruit.com/feed.rss" rel="alternate" title="RSS" type="application/rss+xml">
+  <link href="./Overview   12mm LED Pixels   Adafruit Learning System_files/application-c5ce9a8043beb21228ec10ee3dcf8d75.css" media="screen" rel="stylesheet" type="text/css">
+  <!--[if lt IE 9]>
+  <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <!--[if lte IE 7]>
+      <link href="/assets/ie/ie7-1b13569e9620782f423d4cd3ce931750.css" media="all" rel="stylesheet" type="text/css" />
+  <![endif]-->
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+  <link href="http://learn.adafruit.com/12mm-led-pixels/overview" rel="canonical">
+</head>
+
+<body onload="prettyPrint()" class="application pages show" data-spy="scroll" data-target=".subnav-home" data-offset="90">
+  <div class="navbar navbar-fixed-top navbar-inverse">
+  <div class="navbar-inner">
+    <div class="navbar-width container-fluid" style="margin: 0 auto">
+      <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </a>
+        <a class="brand" href="http://learn.adafruit.com/"> 
+          <img alt="Adafruit Learning System Logo" class="hidden-phone" src="./Overview   12mm LED Pixels   Adafruit Learning System_files/als_logo@2x.png" style="height=30px;width:258px;">
+          <img alt="Adafruit Learning System Logo" class="visible-phone" src="./Overview   12mm LED Pixels   Adafruit Learning System_files/als_logo_iphone@2x.png" style="height:30px;width:155px">
+        </a>    
+    
+      <div class="nav-collapse visible-phone visible-tablet">
+
+        <ul class="nav">
+            	<li class="">
+		<a href="http://learn.adafruit.com/12mm-led-pixels/overview" class="sidebar-parent">Overview</a>
+				<i class="icon-chevron-right hidden-phone hidden-tablet"></i>
+</li>
+	<li class="">
+		<a href="http://learn.adafruit.com/12mm-led-pixels/project-ideas" class="sidebar-parent">Project Ideas</a>
+				<i class="icon-chevron-right hidden-phone hidden-tablet"></i>
+</li>
+	<li class="">
+		<a href="http://learn.adafruit.com/12mm-led-pixels/wiring" class="sidebar-parent">Wiring</a>
+				<i class="icon-chevron-right hidden-phone hidden-tablet"></i>
+</li>
+	<li class="">
+		<a href="http://learn.adafruit.com/12mm-led-pixels/power" class="sidebar-parent">Power</a>
+				<i class="icon-chevron-right hidden-phone hidden-tablet"></i>
+</li>
+	<li class="">
+		<a href="http://learn.adafruit.com/12mm-led-pixels/code" class="sidebar-parent">Code</a>
+				<i class="icon-chevron-right hidden-phone hidden-tablet"></i>
+</li>
+	<li class="">
+		<a href="http://learn.adafruit.com/12mm-led-pixels/troubleshooting" class="sidebar-parent">Troubleshooting</a>
+				<i class="icon-chevron-right hidden-phone hidden-tablet"></i>
+</li>
+	<li class="">
+		<a href="http://learn.adafruit.com/12mm-led-pixels/dimensions" class="sidebar-parent">Dimensions</a>
+				<i class="icon-chevron-right hidden-phone hidden-tablet"></i>
+</li>
+
+            <li><a href="http://learn.adafruit.com/downloads/pdf/12mm-led-pixels.pdf">Download PDF</a></li>
+        </ul>
+      </div><!--/.nav-collapse -->
+
+      <form accept-charset="UTF-8" action="http://learn.adafruit.com/search" class="navbar-form pull-right hidden-phone hidden-tablet" method="get">
+        <input class="custom-search ui-autocomplete-input" type="text" name="q" placeholder="Search the Adafruit Learning System" autocomplete="off"><span role="status" aria-live="polite" class="ui-helper-hidden-accessible"></span>
+      </form>
+      <p class="navbar-text pull-right hidden-phone hidden-tablet als-cart">      
+        <a href="https://www.adafruit.com/index.php?main_page=shopping_cart&source=als" style="display: none"><i class="icon-shopping-cart"></i> Shopping Cart</a>
+      </p>
+
+    </div>
+  </div>
+</div>
+  <div class="container-fluid primary-content-wrapper">
+    <div class="notice-bar-wrapper">
+	<div class="notice-bar">
+	</div>
+</div>
+    <div class="page-wrapper">
+	<div class="category-nav hidden-phone hidden-tablet">
+		<div class="category-nav-pages-crumb">
+			<ul class="breadcrumb">
+				<li>
+					<a href="http://learn.adafruit.com/" class="all-categories">Home</a><span class="divider">/</span>
+				</li>
+				<li>
+					<a href="http://learn.adafruit.com/category/leds">LEDs</a><span class="divider">/</span>
+				</li>
+				<li>
+					<a href="http://learn.adafruit.com/category/led-pixels">LED Pixels</a><span class="divider">/</span>
+				</li>
+				<li>
+					<a href="http://learn.adafruit.com/12mm-led-pixels/overview">12mm LED Pixels</a><span class="divider">/</span>
+				</li>				
+				<li>
+					<span class="selected-category">Overview</span>
+				</li>				
+			</ul>
+		</div>
+	</div>
+
+	<div class="content-wrapper">
+		  <div class="sidebar-right-wrapper">
+    <header class="hidden-phone hidden-tablet sidebar-right">
+        <div class="sidebar-right-content">
+  <h4>Featured in this Guide</h4>
+    <div class="product-wrapper">
+      <div class="product-title">12mm  Diffused Flat Digital RGB LED Pixels (Strand of 25)</div>
+      <div class="product-image">
+        <a href="http://www.adafruit.com/products/738">
+          <img src="./Overview   12mm LED Pixels   Adafruit Learning System_files/ID738_MED.jpg" alt="ID738_MED.jpg" height="173">
+</a>      </div>
+      <div class="product-details">
+        <span class="product-price">$39.95</span>
+        <span class="product-buy">
+            <a href="http://www.adafruit.com/products/738" id="738-product">
+              Add to Cart
+</a>        </span>
+      </div>
+    </div>
+    <div class="product-wrapper">
+      <div class="product-title">12mm  Diffused Thin Digital RGB LED Pixels (Strand of 25)</div>
+      <div class="product-image">
+        <a href="http://www.adafruit.com/products/322">
+          <img src="./Overview   12mm LED Pixels   Adafruit Learning System_files/ID322_MED.jpg" alt="ID322_MED.jpg" height="150">
+</a>      </div>
+      <div class="product-details">
+        <span class="product-price">$39.95</span>
+        <span class="product-buy">
+            <a href="http://www.adafruit.com/products/322" id="322-product">
+              Add to Cart
+</a>        </span>
+      </div>
+    </div>
+    <div class="product-wrapper">
+      <div class="product-title">5V 10A switching power supply</div>
+      <div class="product-image">
+        <a href="http://www.adafruit.com/products/658">
+          <img src="./Overview   12mm LED Pixels   Adafruit Learning System_files/ID658_MED.jpg" alt="ID658_MED.jpg" height="173">
+</a>      </div>
+      <div class="product-details">
+        <span class="product-price">$25.00</span>
+        <span class="product-buy">
+            <span class="product-normal-text">Out of Stock (</span>
+            <a href="http://www.adafruit.com/products/658" class="notify" id="658-product">Notify Me</a>
+            <span class="product-normal-text">)</span>
+        </span>
+      </div>
+    </div>
+    <div class="product-wrapper">
+      <div class="product-title">5V 2A (2000mA) switching power supply - UL Listed</div>
+      <div class="product-image">
+        <a href="http://www.adafruit.com/products/276">
+          <img src="./Overview   12mm LED Pixels   Adafruit Learning System_files/5v2A_MED.jpg" alt="5v2A_MED.jpg" height="173">
+</a>      </div>
+      <div class="product-details">
+        <span class="product-price">$9.95</span>
+        <span class="product-buy">
+            <a href="http://www.adafruit.com/products/276" id="276-product">
+              Add to Cart
+</a>        </span>
+      </div>
+    </div>
+    <div class="product-wrapper">
+      <div class="product-title">Female DC Power adapter - 2.1mm jack to screw terminal block</div>
+      <div class="product-image">
+        <a href="http://www.adafruit.com/products/368">
+          <img src="./Overview   12mm LED Pixels   Adafruit Learning System_files/female21terminal_MED.jpg" alt="female21terminal_MED.jpg" height="173">
+</a>      </div>
+      <div class="product-details">
+        <span class="product-price">$2.00</span>
+        <span class="product-buy">
+            <a href="http://www.adafruit.com/products/368" id="368-product">
+              Add to Cart
+</a>        </span>
+      </div>
+    </div>
+    <div class="product-wrapper">
+      <div class="product-title">4-pin JST SM Plug + Receptacle Cable Set</div>
+      <div class="product-image">
+        <a href="http://www.adafruit.com/products/578">
+          <img src="./Overview   12mm LED Pixels   Adafruit Learning System_files/jstsm4plug_MED.jpg" alt="jstsm4plug_MED.jpg" height="173">
+</a>      </div>
+      <div class="product-details">
+        <span class="product-price">$1.50</span>
+        <span class="product-buy">
+            <a href="http://www.adafruit.com/products/578" id="578-product">
+              Add to Cart
+</a>        </span>
+      </div>
+    </div>
+  <div class="product-details">
+    <div class="add-all-to-cart-container">
+      <a class="add-all-to-cart" href="">Add all to Cart</a>
+      <div class="add-all-to-cart-progress"></div>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div>
+<div class="modal fade" id="notify-modal">
+  <div class="modal-header">
+    <a href="http://learn.adafruit.com/12mm-led-pixels?view=all#" class="close" data-dismiss="modal">×</a>
+    <h5>Out of Stock Notification</h5>
+  </div>
+  <div class="modal-body">
+    <p class="notify-modal-form-header"></p>
+    <div class="notify-modal-products"></div>
+    <form id="notify-modal-form" name="back_in_stock_notification">
+      <p class="notify-modal-form-notice"></p>
+      <div class="notify-modal-break"></div>
+      <label class="inputLabel" for="name">Your Name:</label>
+      <input type="text" size="25" maxlength="64" name="name" value="">
+
+      <label class="inputLabel" for="email">Your E-mail:</label>
+      <input type="email" size="25" maxlength="96" name="email" value="">
+
+    
+      <input type="text" name="daigo" style="display:none;">
+      <input type="hidden" name="notify_me" value="true">
+    </form>
+    <div id="notify-modal-success" style="display:none">
+      <p>You have been successfully subscribed to the Notification List for this product and will therefore receive an e-mail from us when it is back in stock!</p>
+      <p>For security reasons, an e-mail has been sent to you acknowledging your subscription. Please remember that this subscription will not result in you receiving any e-mail from us about anything other than the restocking of this item.</p>
+      <p>If, for any reason, you would like to unsubscribe from the Notification List for this product you will find details of how to do so in the e-mail that has just been sent to you!</p>
+    </div>
+  </div>
+  <div class="modal-footer">
+    <a href="http://learn.adafruit.com/12mm-led-pixels?view=all#" id="close-notify" style="display: none" data-dismiss="modal" data-target="#notify-modal">Close</a>
+    <a href="http://learn.adafruit.com/12mm-led-pixels?view=all#" id="submit-notify" rel="nofollow">Notify Me</a>
+  </div>
+</div>
+    </header>
+  </div>
+
+		<div class="content-left-wrapper">
+			<div class="hidden-phone hidden-tablet sidebar-left-wrapper" style="position: fixed; top: 48px;">
+				<header class="sidebar-left">
+			    <h1><a href="http://learn.adafruit.com/12mm-led-pixels/overview">12mm LED Pixels</a></h1>
+			    <span class="tagline"><a href="http://learn.adafruit.com/12mm-led-pixels/overview">12mm silicone-encased glowy dots!</a></span>
+			    <ul class="page-parent">
+							<li class="">
+		<a href="http://learn.adafruit.com/12mm-led-pixels/overview" class="sidebar-parent">Overview</a>
+				<i class="icon-chevron-right hidden-phone hidden-tablet"></i>
+</li>
+	<li class="">
+		<a href="http://learn.adafruit.com/12mm-led-pixels/project-ideas" class="sidebar-parent">Project Ideas</a>
+				<i class="icon-chevron-right hidden-phone hidden-tablet"></i>
+</li>
+	<li class="">
+		<a href="http://learn.adafruit.com/12mm-led-pixels/wiring" class="sidebar-parent">Wiring</a>
+				<i class="icon-chevron-right hidden-phone hidden-tablet"></i>
+</li>
+	<li class="">
+		<a href="http://learn.adafruit.com/12mm-led-pixels/power" class="sidebar-parent">Power</a>
+				<i class="icon-chevron-right hidden-phone hidden-tablet"></i>
+</li>
+	<li class="">
+		<a href="http://learn.adafruit.com/12mm-led-pixels/code" class="sidebar-parent">Code</a>
+				<i class="icon-chevron-right hidden-phone hidden-tablet"></i>
+</li>
+	<li class="">
+		<a href="http://learn.adafruit.com/12mm-led-pixels/troubleshooting" class="sidebar-parent">Troubleshooting</a>
+				<i class="icon-chevron-right hidden-phone hidden-tablet"></i>
+</li>
+	<li class="">
+		<a href="http://learn.adafruit.com/12mm-led-pixels/dimensions" class="sidebar-parent">Dimensions</a>
+				<i class="icon-chevron-right hidden-phone hidden-tablet"></i>
+</li>
+
+						<li class="single-page-spacer"></li>
+						<li class="single-page-link active"><a href="./Overview   12mm LED Pixels   Adafruit Learning System_files/Overview   12mm LED Pixels   Adafruit Learning System.html">Single Page</a><i class="icon-list-alt"></i></li>
+						<li><a href="http://learn.adafruit.com/downloads/pdf/12mm-led-pixels.pdf">Download PDF</a><i class="icon-download-alt"></i></li>
+			    </ul>
+			  </header>
+			  <header class="sidebar-meta">
+  <p>
+    <i class="icon-comment"></i><a href="http://learn.adafruit.com/pages/252/settings_modal" class="feedback-link" data-method="get" data-remote="true" rel="nofollow" title="View Settings">
+        Feedback?  Corrections?
+</a>  </p>
+</header>
+			  
+			</div>
+			<article class="content">
+							<h1 class="headline">
+								<span>Overview</span>
+									<span class="author">Created by <a href="http://learn.adafruit.com/users/12">Phillip Burgess</a> </span>
+							</h1>
+							<div class="page-content all-page-view-content">
+									    <div class="row-fluid build-image">
+      <div class="build-image-center">
+        <a href="http://learn.adafruit.com/assets/1021">
+          <img class="1021-asset" src="./Overview   12mm LED Pixels   Adafruit Learning System_files/title.jpg" alt="title.jpg">
+</a>      </div>
+    </div>
+    <div class="row-fluid build-text">
+      <span>RGB Pixels are digitally-controllable lights you can set to any color, or animate. Each pixel contains an RGB LED and a controller chip molded into a 'dot' of silicone, with flanges so they can be pushed into holes in thin sheet material. The dots are waterproof and rugged — they're typically used to make outdoor signs.<br><ul></ul></span>
+    </div>
+    <div class="row-fluid build-text">
+      12mm RGB pixels come in two different shapes: “bullet” (thin) and “square” (flat). Both use the same type of LED, driver chip and data protocols…the main difference is how they can be mounted: bullets fit better into narrow spaces, while squares are better suited to shallow spaces.<br><br>Both types use an 8mm diffused RGB LED (“12mm” refers to the size of the mounting hole for installation)&nbsp;— diffused pixels mix colors nicer. At <b>5 volts</b>, they draw a maximum of <b>60 milliamps</b> per pixel: 20 mA each for red, green and blue.<br><br>The LED pixels are spaced along a strand of ribbon cable, with about <b>3 inches (75mm)</b> between pixels. If additional distance is needed you can cut the ribbon cable and solder 4 wires to extend the gap to the desired length.<br><br>Each pixel contains a small microchip within the silicone dot. The WS2801 LED driver chip is custom designed for this purpose. We provide an Arduino library for communicating with the pixels (explained in subsequent pages), but if you want to write your own code for other microcontrollers, they’re very easy to communicate with using an SPI-like protocol. For each pixel, one “shifts out” 24 bits of color information — the first data out corresponds to the pixel closest to the microcontroller. To write colors to 10 LEDs, you would issue 240 bits (10 * 24). Following the data, a 500 microsecond pause will then “latch” the data and display the new LED colors.<br>
+    </div>
+
+							</div>
+							<h1 class="headline">
+								<span>Project Ideas</span>
+									<span class="author">Created by <a href="http://learn.adafruit.com/users/12">Phillip Burgess</a> </span>
+							</h1>
+							<div class="page-content all-page-view-content">
+									    <div class="row-fluid build-text">
+      These pixels could be used for stuff like…<br><br>An LED coffee table (this one was “hand made” some time ago…now you could simply use a long strand of our LED pixels and skip the complicated wiring and&nbsp;driver parts):
+    </div>
+    <div class="build-embed">
+      <div class="build-video"><div class="fluid-width-video-wrapper" style="padding-top: 56.25%;"><iframe src="about:blank" frameborder="0" allowfullscreen="" id="fitvid611517"></iframe></div></div>
+    </div>
+    <div class="row-fluid build-text">
+      <span>A trippy “light bar”:</span>
+    </div>
+    <div class="build-embed">
+      <div class="build-video"><div class="fluid-width-video-wrapper" style="padding-top: 56.25%;"><iframe src="./Overview   12mm LED Pixels   Adafruit Learning System_files/16297109.html" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" id="fitvid133691"></iframe></div></div>
+    </div>
+    <div class="row-fluid build-text">
+      <span>Signs and displays:</span>
+    </div>
+    <div class="build-embed">
+      <div class="build-video"><div class="fluid-width-video-wrapper" style="padding-top: 74.94553376906318%;"><iframe src="about:blank" frameborder="0" allowfullscreen="" id="fitvid667460"></iframe></div></div>
+    </div>
+    <div class="row-fluid build-text">
+      <span>A ball of LEDs:</span>
+    </div>
+    <div class="build-embed">
+      <div class="build-video"><div class="fluid-width-video-wrapper" style="padding-top: 56.25%;"><iframe src="./Overview   12mm LED Pixels   Adafruit Learning System_files/16303734.html" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" id="fitvid710821"></iframe></div></div>
+    </div>
+
+							</div>
+							<h1 class="headline">
+								<span>Wiring</span>
+									<span class="author">Created by <a href="http://learn.adafruit.com/users/12">Phillip Burgess</a> </span>
+							</h1>
+							<div class="page-content all-page-view-content">
+									    <div class="row-fluid build-alert">
+      <div class="alert alert-error">
+        <i class="icon-warning-sign"></i>
+        EARLIER VERSIONS OF THESE PIXELS USED A DIFFERENT DRIVER CHIP AND/OR WIRING COLORS. ANYTHING PURCHASED AFTER AUGUST 2011 SHOULD MATCH THE FOLLOWING DECRIPTION. We initially sold LEDs in this form factor using the LPD6803 driver chip (BEFORE August 2011). If you are using those pixels, please use the 20mm pixel tutorial (www.ladyada.net/products/pixel20mm), using the wiring and code from that page — nothing further here applies. After switching to the WS2801 chip, the first batch used different wire colors, but is functionally the same as described below.
+      </div>
+    </div>
+    <div class="row-fluid build-text">
+      
+<p>The “magic” of&nbsp;these pixels is that they're digitally controlled…even though there are only two control lines, you can have as many pixels as you’d like in a single long strand, yet each remains independently controllable.</p>
+<p>Though it looks like the 4-conductor ribbon cable is continuous,&nbsp;<em>it isn't!</em> The pixels have a distinct “in” and “out” side. Data from the microcontroller arrives on the input side, where it’s received by the driver chip. The output side then connects to the input of the next pixel, all the way down the line.</p>
+<p>The way to tell input from output is different among the shape and version of the pixels you’re using:</p>
+    </div>
+      <table class="build-table">
+      <tbody><tr class="build-row">
+          <td class="side-images">
+            <a href="http://learn.adafruit.com/12mm-led-pixels?view=all#step-3" class="anchor-link"><span class="icon-link"></span></a>
+            <span id="step-3" class="anchor-link-target"></span>
+            <ul>
+              <li class="medium-side">
+                <a href="http://learn.adafruit.com/assets/1022" class="large-side-image-link">
+                  <img class="1022-asset medium-side-image" src="./Overview   12mm LED Pixels   Adafruit Learning System_files/flat-io.jpg" alt="flat-io.jpg">
+</a>              </li>
+            </ul>
+          </td>
+        <td class="side-text"><span>For flat pixels, look for an embossed <b>arrow</b> on the side of the plastic capsule. This represents the <b>direction of&nbsp;data flow</b>…bits from the microcontroller should arrive at the “tail” of the arrow, <i>not</i> the pointy head end.</span></td>
+      </tr>
+      <tr class="build-row">
+          <td class="side-images">
+            <a href="http://learn.adafruit.com/12mm-led-pixels?view=all#step-4" class="anchor-link"><span class="icon-link"></span></a>
+            <span id="step-4" class="anchor-link-target"></span>
+            <ul>
+              <li class="medium-side">
+                <a href="http://learn.adafruit.com/assets/1023" class="large-side-image-link">
+                  <img class="1023-asset medium-side-image" src="./Overview   12mm LED Pixels   Adafruit Learning System_files/bullet-io.jpg" alt="bullet-io.jpg">
+</a>              </li>
+            </ul>
+          </td>
+        <td class="side-text">For bullet pixels with a <b>green circuit board</b> inside, look for the rectangular black chip on one side of the board.&nbsp;With this chip facing you, the set of <b>wires in front&nbsp;are the input</b> — data arrives here — and the wires underneath are the output to the next pixel.</td>
+      </tr>
+      <tr class="build-row">
+          <td class="side-images">
+            <a href="http://learn.adafruit.com/12mm-led-pixels?view=all#step-5" class="anchor-link"><span class="icon-link"></span></a>
+            <span id="step-5" class="anchor-link-target"></span>
+            <ul>
+              <li class="medium-side">
+                <a href="http://learn.adafruit.com/assets/1024" class="large-side-image-link">
+                  <img class="1024-asset medium-side-image" src="./Overview   12mm LED Pixels   Adafruit Learning System_files/white-io.jpg" alt="white-io.jpg">
+</a>              </li>
+            </ul>
+          </td>
+        <td class="side-text">For older bullet pixels with a <b>white circuit board</b> inside, look for the “<b>INPUT</b>” label printed on the board. With this side facing you, the set of <b>wires in front are the input</b> — data arrives here — and the wires underneath are the output to the next pixel.</td>
+      </tr>
+      </tbody></table>
+    <div class="row-fluid build-text">
+      Our LED pixels now include plugs&nbsp;for joining multiple strands and to simplify connection to a microcontroller:
+    </div>
+      <table class="build-table">
+      <tbody><tr class="build-row">
+          <td class="side-images">
+            <a href="http://learn.adafruit.com/12mm-led-pixels?view=all#step-7" class="anchor-link"><span class="icon-link"></span></a>
+            <span id="step-7" class="anchor-link-target"></span>
+            <ul>
+              <li class="medium-side">
+                <a href="http://learn.adafruit.com/assets/1051" class="large-side-image-link">
+                  <img class="1051-asset medium-side-image" src="./Overview   12mm LED Pixels   Adafruit Learning System_files/bullet-conn.jpg" alt="bullet-conn.jpg">
+</a>              </li>
+            </ul>
+          </td>
+        <td class="side-text">Your pixels will have one end with a plug - these tend to be the input side on <b>bullet</b> shaped pixels but we've found that isn't true 100% of the time so don't rely on this as a way of determine which end is the input<br></td>
+      </tr>
+      <tr class="build-row">
+          <td class="side-images">
+            <a href="http://learn.adafruit.com/12mm-led-pixels?view=all#step-8" class="anchor-link"><span class="icon-link"></span></a>
+            <span id="step-8" class="anchor-link-target"></span>
+            <ul>
+              <li class="medium-side">
+                <a href="http://learn.adafruit.com/assets/1052" class="large-side-image-link">
+                  <img class="1052-asset medium-side-image" src="./Overview   12mm LED Pixels   Adafruit Learning System_files/square-conn.jpg" alt="square-conn.jpg">
+</a>              </li>
+            </ul>
+          </td>
+        <td class="side-text">Your pixels will have one end with a receptacle - these tend to be the input side on <b>flat</b> shaped pixels but we've found that isn't true 100% of the time so don't rely on this as a way of determine which end is the input
+
+<br></td>
+      </tr>
+      <tr class="build-row">
+          <td class="side-images">
+            <a href="http://learn.adafruit.com/12mm-led-pixels?view=all#step-9" class="anchor-link"><span class="icon-link"></span></a>
+            <span id="step-9" class="anchor-link-target"></span>
+            <ul>
+              <li class="medium-side">
+                <a href="http://learn.adafruit.com/assets/1053" class="large-side-image-link">
+                  <img class="1053-asset medium-side-image" src="./Overview   12mm LED Pixels   Adafruit Learning System_files/plugs.jpg" alt="plugs.jpg">
+</a>              </li>
+            </ul>
+          </td>
+        <td class="side-text">Mating connectors for both are available in the Adafruit shop. These have a housing at one end and four tinned wires at the opposite end…the wires can be soldered directly to your circuit, or strip a little more insulation to press these into Arduino pin sockets.<br><br>Luckily,<a href="http://adafruit.com/products/578"> we have them as a pair</a> so no matter what pixels you end up with, you'll have one for input and one for output<br></td>
+      </tr>
+      <tr class="build-row">
+          <td class="side-images">
+            <a href="http://learn.adafruit.com/12mm-led-pixels?view=all#step-10" class="anchor-link"><span class="icon-link"></span></a>
+            <span id="step-10" class="anchor-link-target"></span>
+            <ul>
+              <li class="medium-side">
+                <a href="http://learn.adafruit.com/assets/1054" class="large-side-image-link">
+                  <img class="1054-asset medium-side-image" src="./Overview   12mm LED Pixels   Adafruit Learning System_files/jam-wires.jpg" alt="jam-wires.jpg">
+</a>              </li>
+            </ul>
+          </td>
+        <td class="side-text">There’s one more trick up our sleeve: if you don’t have a mating connector available, breadboarding jumper wires can be pressed into the connector - here we're <b>assuming that is the input side!</b>
+</td>
+      </tr>
+      </tbody></table>
+    <div class="row-fluid build-text">
+      The extra red and blue wires (the exposed ones not inside a connector) are for power — we’ll explain that in the next section.
+    </div>
+    <div class="row-fluid build-text">
+      
+<h1>
+<a href="http://learn.adafruit.com/12mm-led-pixels?view=all#connecting-to-arduino" class="anchor-link"><span class="icon-link"></span></a><span id="connecting-to-arduino" class="anchor-link-target"></span>Connecting to Arduino</h1>To use our&nbsp;example code for Arduino, connect the <b>yellow</b> wire (serial data) to Arduino <b>pin 2</b> and the&nbsp;<b>green</b> wire (serial clock) to <b>pin 3</b>.&nbsp;The software can be configured to use other pins, but we recommend using this arrangement when starting out, so that everything is tested in a known configuration.&nbsp;The <b>blue</b> wire (ground) should be connected to any of the Arduino <b>GND</b> pins.<br>
+    </div>
+    <div class="build-faq">
+      <h2 class="question">
+        <a href="http://learn.adafruit.com/12mm-led-pixels?view=all#faq-13" class="anchor-link"><span class="icon-link"></span></a>
+        <span id="faq-13" class="anchor-link-target"></span>
+        <i class="icon-question-sign"></i>
+        Why do the bullet and flat pixels use different “genders” for the connecting plugs? Why can’t I mix and match strands?</h2>
+      <div class="answer">This is intentional, to avoid wiring mishaps. Although the two pixel types&nbsp;have the same electrical specifications and use the same data protocol, the order of the wires is different between the two. Joining them directly would mix signal and power wires improperly, potentially damaging the pixels.<br></div>
+    </div> 
+    <div class="row-fluid build-image">
+      <div class="build-image-center">
+        <a href="http://learn.adafruit.com/assets/1074">
+          <img class="1074-asset" src="./Overview   12mm LED Pixels   Adafruit Learning System_files/arduino-wiring.png" alt="arduino-wiring.png">
+</a>      </div>
+    </div>
+
+							</div>
+							<h1 class="headline">
+								<span>Power</span>
+									<span class="author">Created by <a href="http://learn.adafruit.com/users/12">Phillip Burgess</a> </span>
+							</h1>
+							<div class="page-content all-page-view-content">
+									    <div class="row-fluid build-text">
+      
+<p>When running a lot of LEDs, it’s important to keep track of power usage.&nbsp;Individual LEDs don't get very hot or use tons of power, but they add up fast!</p>
+<p>Each single 12mm RGB LED pixel can draw up to 60mA from a 5V supply. That means a strand of 25 can use up to 1.5 Amps. That’s a peak rate, which assumes that all the LEDs are on at full brightness. If most of the LEDs are kept dim or off (as when animating patterns), the power usage can be 1/3 this or less.</p>
+<p>As shown in the previous wiring diagram, connect ground to both your power supply and microcontroller. Then connect the 5V line from the power supply to the red wire on the LED strand.</p>
+    </div>
+    <div class="row-fluid build-alert">
+      <div class="alert alert-error">
+        <i class="icon-warning-sign"></i>
+        Never, NEVER connect more than 5 Volts to the pixels! This will permanently damage them!
+      </div>
+    </div>
+    <div class="row-fluid build-text">
+      We suggest a nice switching supply for driving LED pixels:
+    </div>
+      <table class="build-table">
+      <tbody><tr class="build-row">
+          <td class="side-images">
+            <a href="http://learn.adafruit.com/12mm-led-pixels?view=all#step-4" class="anchor-link"><span class="icon-link"></span></a>
+            <span id="step-4" class="anchor-link-target"></span>
+            <ul>
+              <li class="medium-side">
+                <a href="http://learn.adafruit.com/assets/1080" class="large-side-image-link">
+                  <img class="1080-asset medium-side-image" src="./Overview   12mm LED Pixels   Adafruit Learning System_files/5v2A_LRG.jpg" alt="5v2A_LRG.jpg">
+</a>              </li>
+            </ul>
+          </td>
+        <td class="side-text">Our <a href="http://adafruit.com/products/276">5 Volt,&nbsp;2 Amp power supply</a> is ideal for one strand of pixels.<br></td>
+      </tr>
+      <tr class="build-row">
+          <td class="side-images">
+            <a href="http://learn.adafruit.com/12mm-led-pixels?view=all#step-5" class="anchor-link"><span class="icon-link"></span></a>
+            <span id="step-5" class="anchor-link-target"></span>
+            <ul>
+              <li class="medium-side">
+                <a href="http://learn.adafruit.com/assets/1081" class="large-side-image-link">
+                  <img class="1081-asset medium-side-image" src="./Overview   12mm LED Pixels   Adafruit Learning System_files/ID658_LRG.jpg" alt="ID658_LRG.jpg">
+</a>              </li>
+            </ul>
+          </td>
+        <td class="side-text">For larger projects using multiple strands of pixels, our <a href="http://adafruit.com/products/658">5 Volt&nbsp;10 Amp power supply</a> is good for up to 6 strands (150 pixels total).<br></td>
+      </tr>
+      <tr class="build-row">
+          <td class="side-images">
+            <a href="http://learn.adafruit.com/12mm-led-pixels?view=all#step-6" class="anchor-link"><span class="icon-link"></span></a>
+            <span id="step-6" class="anchor-link-target"></span>
+            <ul>
+              <li class="medium-side">
+                <a href="http://learn.adafruit.com/assets/1082" class="large-side-image-link">
+                  <img class="1082-asset medium-side-image" src="./Overview   12mm LED Pixels   Adafruit Learning System_files/dc-jack.jpg" alt="dc-jack.jpg">
+</a>              </li>
+            </ul>
+          </td>
+        <td class="side-text">The&nbsp;<a href="http://adafruit.com/products/368" title="Link: http://adafruit.com/products/368">female DC power adapter</a>&nbsp;mates with either of the above power supplies. Screw terminals clamp down on the power leads at the end of an LED&nbsp;strand, so there’s&nbsp;no soldering required.<br><br>Note the embossed polarity markings. Connect the <b>red wire</b> to the <b>+</b> terminal and the <b>blue wire</b> to the <b>-</b> terminal.<br><br>Pixel strands have these power wires at <i>both</i> ends. You can use <i>either</i> side. But don’t leave the wires exposed at the opposite end! Insulate them with heat shrink or tape, or trim the exposed wire flush with the insulation.<br></td>
+      </tr>
+      </tbody></table>
+    <div class="row-fluid build-text">
+      
+<h1>
+<a href="http://learn.adafruit.com/12mm-led-pixels?view=all#tips-for-powering-pixel-strands" class="anchor-link"><span class="icon-link"></span></a><span id="tips-for-powering-pixel-strands" class="anchor-link-target"></span>Tips for powering pixel strands:</h1>
+<ul>
+<li>When linking multiple strands together, power should be split and&nbsp;applied to <i>each</i> strand. If you try to power too many LEDs from just one end of the strand, they’ll start to “brown out” the further they are from the power supply.</li>
+<li>Strands can be powered from <i>either</i> end — “input” and “output” doesn’t apply to power, only the data signals from the microcontroller.</li>
+<li>If the 10 Amp power supply isn’t large enough for your project, a <a href="http://www.instructables.com/pages/search/search.jsp?ie=ISO-8859-1&q=ATX">slightly modified ATX computer power supply</a> can provide 30 Amps to power upwards of 500 pixels!</li>
+<li>Generally speaking, you should not try to&nbsp;power an LED strand from the Arduino’s 5V line. This is okay if just a few pixels are lit, but is not adequate for driving a full strand.<br>
+</li>
+<li>For a standalone application (not USB connected to a computer), you can power the Arduino from the same regulated 5V supply as the LEDs — connect to the 5V pin on the Arduino,&nbsp;<i>not</i>&nbsp;Vin, and don’t use the DC jack on the Arduino.</li>
+<li>Remember to insulate or trim&nbsp;any unused, exposed power wires!</li>
+</ul><ul></ul>
+    </div>
+
+							</div>
+							<h1 class="headline">
+								<span>Code</span>
+									<span class="author">Created by <a href="http://learn.adafruit.com/users/12">Phillip Burgess</a> </span>
+							</h1>
+							<div class="page-content all-page-view-content">
+									    <div class="row-fluid build-text">
+      <span><h1>
+<a href="http://learn.adafruit.com/12mm-led-pixels?view=all#installation" class="anchor-link"><span class="icon-link"></span></a><span id="installation" class="anchor-link-target"></span>Installation</h1>
+<p>Our Arduino library takes care of all the communication and color conversion required to run these pixels. You can find our Arduino library source repository at the <a title="Link: https://github.com/adafruit/Adafruit-WS2801-Library" href="https://github.com/adafruit/Adafruit-WS2801-Library">repository on GitHub</a>.</p>
+<p>To install it, click the button below to download the compressed ZIP file then install it.  <a href="http://learn.adafruit.com/adafruit-all-about-arduino-libraries-install-use">This guide</a> will help you with the install process if you have never installed an Arduino library.</p>
+</span>
+    </div>
+    <div class="button-element">
+        <a href="https://github.com/adafruit/Adafruit-WS2801-Library/archive/master.zip" class="btn btn-large btn-block btn-primary" type="button">Download Adafruit WS2801 LED Pixel Library</a>
+    </div>
+    <div class="row-fluid build-text">
+      
+<span><p>After installing the Adafruit_WS2801 library, restart the 
+Arduino IDE. You should now be able to access the sample code by 
+navigating through menus in this order: 
+File→Sketchbook→Libraries→Adafruit_WS2801→strandtest</p>
+<h1>
+<a href="http://learn.adafruit.com/12mm-led-pixels?view=all#using-the-library" class="anchor-link"><span class="icon-link"></span></a><span id="using-the-library" class="anchor-link-target"></span>Using the Library</h1></span><p>Let's look through the strandtest 
+example code. To use the library in an Arduino sketch, you'll first need
+ to globally declare a WS2801 object to talk to the strip. It is invoked
+ with three variables: the number of pixels and the data and clock pins:</p>
+    </div>
+    <div class="build-code">
+      <div class="code-copy-container" style="position: absolute; visibility: visible;">
+         <div class="code-copy-button">Copy Code</div>
+         <div class="zero-clipboard" style="position:absolute; left:0px; top:0px; width:63px; height:14px; z-index:99"><embed id="ZeroClipboardMovie_1" src="/assets/ZeroClipboard.swf" loop="false" menu="false" quality="best" bgcolor="#ffffff" width="63" height="14" name="ZeroClipboardMovie_1" align="middle" allowscriptaccess="always" allowfullscreen="false" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" flashvars="id=1&amp;width=63&amp;height=14" wmode="transparent"><div class="here">here</div></embed></div>
+      </div>
+      <pre class="code-text-only" style="display: none;">int dataPin = 2;
+int clockPin = 3;
+ 
+// Set the first variable to the NUMBER of pixels. 25 = 25 pixels in a row
+Adafruit_WS2801 strip = Adafruit_WS2801(25, dataPin, clockPin);</pre>
+      <pre class="prettyprint linenums">int dataPin = 2;
+int clockPin = 3;
+ 
+// Set the first variable to the NUMBER of pixels. 25 = 25 pixels in a row
+Adafruit_WS2801 strip = Adafruit_WS2801(25, dataPin, clockPin);</pre>
+    </div>
+    <div class="row-fluid build-text">
+      <span><p>Next, we initialize the strip in the&nbsp;setup()&nbsp;procedure:</p></span>
+    </div>
+    <div class="build-code">
+      <div class="code-copy-container" style="position: absolute; visibility: visible;">
+         <div class="code-copy-button">Copy Code</div>
+         <div class="zero-clipboard" style="position:absolute; left:0px; top:0px; width:63px; height:14px; z-index:99"><embed id="ZeroClipboardMovie_2" src="/assets/ZeroClipboard.swf" loop="false" menu="false" quality="best" bgcolor="#ffffff" width="63" height="14" name="ZeroClipboardMovie_2" align="middle" allowscriptaccess="always" allowfullscreen="false" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" flashvars="id=2&amp;width=63&amp;height=14" wmode="transparent"><div class="here">here</div></embed></div>
+      </div>
+      <pre class="code-text-only" style="display: none;">void setup() {
+ 
+  strip.begin();
+ 
+  // Update LED contents, to start they are all 'off'
+  strip.show();
+}</pre>
+      <pre class="prettyprint linenums">void setup() {
+ 
+  strip.begin();
+ 
+  // Update LED contents, to start they are all 'off'
+  strip.show();
+}</pre>
+    </div>
+    <div class="row-fluid build-text">
+      <span><p>begin()&nbsp;initializes the library, while&nbsp;show()&nbsp;refreshes the displayed colors of the LEDs. You'll need to call&nbsp;show() after changing any pixel colors to see this reflected in the LEDs. This way you can change the entire strip at one time (it takes the same amount of time to change one pixel as it does for an entire strip).</p>
+<p>Let's look inside an example function,&nbsp;colorWipe(). This creates a 'chase' sequence that fills the strip&nbsp;with a color. It is basically a loop that increments through every pixel (which you can query with the&nbsp;numPixels()&nbsp;function) and sets the color of each (incremented with&nbsp;i) to the value passed (c&nbsp;— colors are expressed as a 32-bit variable type, though only the bottom 24 bits are used). The strip output is then updated with&nbsp;show(). Finally there is some delay (otherwise this would happen instantly).</p>
+<p>Below that is a helper function that converts a color from separate 8-bit red, green and blue values into a combined 24-bit value (suitable for passing to&nbsp;colorWipe()). The brightness range is from 0 (off) to 255 (max brightness).</p></span>
+    </div>
+    <div class="build-code">
+      <div class="code-copy-container" style="position: absolute; visibility: visible;">
+         <div class="code-copy-button">Copy Code</div>
+         <div class="zero-clipboard" style="position:absolute; left:0px; top:0px; width:63px; height:14px; z-index:99"><embed id="ZeroClipboardMovie_3" src="/assets/ZeroClipboard.swf" loop="false" menu="false" quality="best" bgcolor="#ffffff" width="63" height="14" name="ZeroClipboardMovie_3" align="middle" allowscriptaccess="always" allowfullscreen="false" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" flashvars="id=3&amp;width=63&amp;height=14" wmode="transparent"><div class="here">here</div></embed></div>
+      </div>
+      <pre class="code-text-only" style="display: none;">// fill the dots one after the other with said color
+// good for testing purposes
+void colorWipe(uint32_t c, uint8_t wait) {
+  int i;
+ 
+  for (i=0; i &lt; strip.numPixels(); i++) {
+      strip.setPixelColor(i, c);
+      strip.show();
+      delay(wait);
+  }
+}
+ 
+/* Helper functions */
+// Create a 24 bit color value from R,G,B
+uint32_t Color(byte r, byte g, byte b)
+{
+  uint32_t c;
+  c = r;
+  c &lt;&lt;= 8;
+  c |= g;
+  c &lt;&lt;= 8;
+  c |= b;
+  return c;
+}</pre>
+      <pre class="prettyprint linenums">// fill the dots one after the other with said color
+// good for testing purposes
+void colorWipe(uint32_t c, uint8_t wait) {
+  int i;
+ 
+  for (i=0; i &lt; strip.numPixels(); i++) {
+      strip.setPixelColor(i, c);
+      strip.show();
+      delay(wait);
+  }
+}
+ 
+/* Helper functions */
+// Create a 24 bit color value from R,G,B
+uint32_t Color(byte r, byte g, byte b)
+{
+  uint32_t c;
+  c = r;
+  c &lt;&lt;= 8;
+  c |= g;
+  c &lt;&lt;= 8;
+  c |= b;
+  return c;
+}</pre>
+    </div>
+    <div class="row-fluid build-text">
+      <span><p>For example, in the&nbsp;loop()&nbsp;function we call colorWipe(Color(255, 0, 0), 50) which will fill the strand with full-brightness red light, pausing about 50 milliseconds between pixels.</p></span>
+    </div>
+    <div class="build-code">
+      <div class="code-copy-container" style="position: absolute; visibility: visible;">
+         <div class="code-copy-button">Copy Code</div>
+         <div class="zero-clipboard" style="position:absolute; left:0px; top:0px; width:63px; height:14px; z-index:99"><embed id="ZeroClipboardMovie_4" src="/assets/ZeroClipboard.swf" loop="false" menu="false" quality="best" bgcolor="#ffffff" width="63" height="14" name="ZeroClipboardMovie_4" align="middle" allowscriptaccess="always" allowfullscreen="false" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" flashvars="id=4&amp;width=63&amp;height=14" wmode="transparent"><div class="here">here</div></embed></div>
+      </div>
+      <pre class="code-text-only" style="display: none;">  colorWipe(Color(255, 0, 0), 50);  // red fill
+  colorWipe(Color(0, 255, 0), 50);  // green fill
+  colorWipe(Color(0, 0, 255), 50);  // blue fill</pre>
+      <pre class="prettyprint linenums">  colorWipe(Color(255, 0, 0), 50);  // red fill
+  colorWipe(Color(0, 255, 0), 50);  // green fill
+  colorWipe(Color(0, 0, 255), 50);  // blue fill</pre>
+    </div>
+
+							</div>
+							<h1 class="headline">
+								<span>Troubleshooting</span>
+									<span class="author">Created by <a href="http://learn.adafruit.com/users/12">Phillip Burgess</a> </span>
+							</h1>
+							<div class="page-content all-page-view-content">
+									    <div class="build-faq">
+      <h2 class="question">
+        <a href="http://learn.adafruit.com/12mm-led-pixels?view=all#faq-1" class="anchor-link"><span class="icon-link"></span></a>
+        <span id="faq-1" class="anchor-link-target"></span>
+        <i class="icon-question-sign"></i>
+        How do I install the LEDs (physically)?</h2>
+      <div class="answer">It's pretty easy! Simply drill a 12mm hole into any material up to 1.5mm/0.06" thick. Then push the LED bulb first into the hole. It takes a little wiggling but there are four flanges molded in so that you can 'push' them thru and the flanges will keep the LED pixel in place<br></div>
+    </div> 
+    <div class="row-fluid build-text">
+      Many support issues arise&nbsp;from&nbsp;eager users getting ahead of themselves, changing the code and wiring before confirming that all the pieces work in the standard configuration.&nbsp;We recommend always starting out with the examples as shown. Use the pinouts and wiring exactly as in the tutorial, and run the stock, unmodified “strandtest” example sketch. Only then should you start switching things around.<br><br>Here are the most common issues and solutions…
+    </div>
+    <div class="build-faq">
+      <h2 class="question">
+        <a href="http://learn.adafruit.com/12mm-led-pixels?view=all#faq-3" class="anchor-link"><span class="icon-link"></span></a>
+        <span id="faq-3" class="anchor-link-target"></span>
+        <i class="icon-question-sign"></i>
+        The pixels are wired and powered exactly as in the tutorial, the sketch compiles and uploads successfully, but nothing happens.</h2>
+      <div class="answer"><ul>
+<li>Double-check all wiring. Are the clock and data wires swapped? Is ground connected to the Arduino?</li>
+<li>Confirm the Arduino is connected to the <u>input</u> end of the strand.</li>
+<li>Check power supply polarity and voltage. Are + and – swapped? If you have a multimeter, confirm 5V DC output (±10%) from the power supply.</li>
+<li>Are the power wires at the opposite end of the strand insulated or trimmed? They should not be left exposed where they might make contact with metal, or each other.</li>
+<li>Is the correct board type&nbsp;selected in the Arduino Tools→Board menu?<br>
+</li>
+</ul></div>
+    </div> 
+    <div class="build-faq">
+      <h2 class="question">
+        <a href="http://learn.adafruit.com/12mm-led-pixels?view=all#faq-4" class="anchor-link"><span class="icon-link"></span></a>
+        <span id="faq-4" class="anchor-link-target"></span>
+        <i class="icon-question-sign"></i>
+        A few LEDs randomly turn on when power is applied, but then nothing happens.</h2>
+      <div class="answer">The power supply is probably OK. Check for any of the following:<br><br><ul>
+<li>Double-check all wiring. Are the clock and data wires swapped? Is ground connected to the Arduino?</li>
+<li>Confirm the Arduino is connected to the <u>input</u> end of the strand.</li>
+<li>Is the correct board type&nbsp;selected in the Arduino Tools→Board menu?<br>
+</li>
+<li>Did the strandtest code successfully compile and upload?</li>
+</ul></div>
+    </div> 
+    <div class="build-faq">
+      <h2 class="question">
+        <a href="http://learn.adafruit.com/12mm-led-pixels?view=all#faq-5" class="anchor-link"><span class="icon-link"></span></a>
+        <span id="faq-5" class="anchor-link-target"></span>
+        <i class="icon-question-sign"></i>
+        Only the first few LEDs respond. The rest remain off or flicker randomly.</h2>
+      <div class="answer"><ul>
+<li>Confirm that the number of LEDs in the&nbsp;Adafruit_WS2801() constructor match the number of LEDs in the strand (both will be 25 if using the strandtest example and a single strand of LEDs).</li>
+<li>Inside each pixel there’s a small circuit board. Give the first bad pixel (and the one immediately&nbsp;before it) a firm squeeze where the ribbon cable joins the board — it may simply be a dodgy connection. If that works, you can either cut out the offending pixel and join the two sub-strands, or arrange for a replacement strand if new.</li>
+</ul></div>
+    </div> 
+    <div class="build-faq">
+      <h2 class="question">
+        <a href="http://learn.adafruit.com/12mm-led-pixels?view=all#faq-6" class="anchor-link"><span class="icon-link"></span></a>
+        <span id="faq-6" class="anchor-link-target"></span>
+        <i class="icon-question-sign"></i>
+        The LEDs flicker randomly, not the way they’re programmed to.</h2>
+      <div class="answer">Are the clock and data wires swapped? Is ground connected to the Arduino?<br></div>
+    </div> 
+    <div class="build-faq">
+      <h2 class="question">
+        <a href="http://learn.adafruit.com/12mm-led-pixels?view=all#faq-7" class="anchor-link"><span class="icon-link"></span></a>
+        <span id="faq-7" class="anchor-link-target"></span>
+        <i class="icon-question-sign"></i>
+        “White” LEDs are showing pink instead.</h2>
+      <div class="answer"><ul><li>This can happen when trying to power too long of a strand from one end. Voltage will drop along the length of the strand and the furthest pixels will “brown out.” Connect power to <i>every</i> 25 pixel strand.</li></ul></div>
+    </div> 
+    <div class="build-faq">
+      <h2 class="question">
+        <a href="http://learn.adafruit.com/12mm-led-pixels?view=all#faq-8" class="anchor-link"><span class="icon-link"></span></a>
+        <span id="faq-8" class="anchor-link-target"></span>
+        <i class="icon-question-sign"></i>
+        Sketch will not compile: error message is “Adafruit_WS2801 does not name a type”</h2>
+      <div class="answer"><ul>
+<li>Confirm the library is <u>unzipped</u> prior to installation.</li>
+<li>Confirm the library is properly named and located. The folder should be called&nbsp;Adafruit_WS2801, and placed inside your personal&nbsp;Documents/Arduino/Libraries folder — <i>not</i> inside the Arduino application folder!</li>
+<li>After installation, the Arduino IDE needs to be restarted for new libraries to be used.<br>
+</li>
+</ul></div>
+    </div> 
+
+							</div>
+							<h1 class="headline">
+								<span>Dimensions</span>
+									<span class="author">Created by <a href="http://learn.adafruit.com/users/12">Phillip Burgess</a> </span>
+							</h1>
+							<div class="page-content all-page-view-content">
+									    <div class="row-fluid build-text">
+      There’s a fair amount of variance between pixels due to the rubbery, waterproof coating.&nbsp;The figures given here are just guidelines, rounded up to the next whole millimeter (except for the mounting hole diameter). Allow yourself some extra&nbsp;“wiggle room” for spacing&nbsp;when planning an installation.<br><br>For mounting holes, 11.5 millimeters is a good guideline, or might go as narrow as 11 mm for a really firm grip, though at that size&nbsp;pixels will be hard to remove and the mounting flange&nbsp;may take some abuse in the process.<br>
+    </div>
+    <div class="row-fluid build-text">
+      <h1>
+<a href="http://learn.adafruit.com/12mm-led-pixels?view=all#bullet-pixels" class="anchor-link"><span class="icon-link"></span></a><span id="bullet-pixels" class="anchor-link-target"></span>“Bullet” Pixels</h1>
+    </div>
+    <div class="row-fluid build-image">
+      <div class="build-image-center">
+        <a href="http://learn.adafruit.com/assets/1434">
+          <img class="1434-asset" src="./Overview   12mm LED Pixels   Adafruit Learning System_files/bullet-profile.jpg" alt="bullet-profile.jpg">
+</a>      </div>
+    </div>
+    <div class="row-fluid build-image">
+      <div class="build-image-center">
+        <a href="http://learn.adafruit.com/assets/1435">
+          <img class="1435-asset" src="./Overview   12mm LED Pixels   Adafruit Learning System_files/bullet-spacing.jpg" alt="bullet-spacing.jpg">
+</a>      </div>
+    </div>
+    <div class="row-fluid build-text">
+      <h1>
+<a href="http://learn.adafruit.com/12mm-led-pixels?view=all#square-pixels" class="anchor-link"><span class="icon-link"></span></a><span id="square-pixels" class="anchor-link-target"></span>“Square” Pixels</h1>
+    </div>
+    <div class="row-fluid build-image">
+      <div class="build-image-center">
+        <a href="http://learn.adafruit.com/assets/1436">
+          <img class="1436-asset" src="./Overview   12mm LED Pixels   Adafruit Learning System_files/square-top.jpg" alt="square-top.jpg">
+</a>      </div>
+    </div>
+    <div class="row-fluid build-image">
+      <div class="build-image-center">
+        <a href="http://learn.adafruit.com/assets/1437">
+          <img class="1437-asset" src="./Overview   12mm LED Pixels   Adafruit Learning System_files/square-profile.jpg" alt="square-profile.jpg">
+</a>      </div>
+    </div>
+    <div class="row-fluid build-image">
+      <div class="build-image-center">
+        <a href="http://learn.adafruit.com/assets/1438">
+          <img class="1438-asset" src="./Overview   12mm LED Pixels   Adafruit Learning System_files/square-spacing.jpg" alt="square-spacing.jpg">
+</a>      </div>
+    </div>
+
+							</div>
+			</article>
+		</div>
+	</div>
+		<div class="related-guides-wrapper">
+  <h3>Related Guides</h3>
+  <div class="related-guides-content">
+    <ul>
+        <li class="related-guide">
+          <a href="http://learn.adafruit.com/flora-brakelight-backpack">  
+            <img src="./Overview   12mm LED Pixels   Adafruit Learning System_files/Screen_Shot_2013-02-13_at_5.31.22_PM.png">
+</a>          <a href="http://learn.adafruit.com/flora-brakelight-backpack">  
+            <h4>Flora Brake Light Backpack</h4>
+</a>          <a href="http://learn.adafruit.com/flora-brakelight-backpack">  
+            <p>Pixel-riffic motorcycle visibility</p>
+</a>        </li>
+        <li class="related-guide">
+          <a href="http://learn.adafruit.com/adalight-diy-ambient-tv-lighting">  
+            <img src="./Overview   12mm LED Pixels   Adafruit Learning System_files/adalight_LRG.jpg">
+</a>          <a href="http://learn.adafruit.com/adalight-diy-ambient-tv-lighting">  
+            <h4>Adalight Project Pack</h4>
+</a>          <a href="http://learn.adafruit.com/adalight-diy-ambient-tv-lighting">  
+            <p>Mood lighting for your media PC</p>
+</a>        </li>
+        <li class="related-guide">
+          <a href="http://learn.adafruit.com/battery-power-for-led-pixels-and-strips">  
+            <img src="./Overview   12mm LED Pixels   Adafruit Learning System_files/belt.jpg">
+</a>          <a href="http://learn.adafruit.com/battery-power-for-led-pixels-and-strips">  
+            <h4>Battery Power for LED Pixels and Strips</h4>
+</a>          <a href="http://learn.adafruit.com/battery-power-for-led-pixels-and-strips">  
+            <p>Easily adapt your LED projects for portable use</p>
+</a>        </li>
+    </ul>
+    <div class="clear"></div>
+  </div>
+</div>
+	<div class="adafruit-footer">
+  <div class="footer-content">
+    <div class="footer-section about-adafruit">
+      <h4>About Adafruit</h4>
+      <p>Adafruit was founded in 2005 by MIT engineer, Limor "Ladyada" Fried. Her goal was to create the best place online for learning electronics
+        and making the best designed products for makers of all ages and skill levels.
+        <br>
+        <a href="http://www.adafruit.com/about">Learn More.</a>
+      </p>
+    </div>
+    <div class="footer-section about-als">
+      <h4>The Adafruit Learning System</h4>
+      <p>In 2012, after years of coding tutorials by hand, Limor put together a small team to build a custom tutorial management system from the ground up.  The Adafruit Learning System allows us to make a wide range of awesome tutorials fast and efficiently.  We hope these tutorials will help you learn something new, and inspire you to make something great!
+      </p>
+    </div>
+    <div class="footer-section useful-stuff">
+      <h4>Useful Stuff</h4>
+      <p>
+        <a href="http://forums.adafruit.com/">Support Forums</a>
+        <a href="http://adafruit.com/">Adafruit Shop</a>
+        <a href="http://learn.adafruit.com/feed">RSS</a>        
+      </p>
+    </div>
+    <div class="clear"></div>  
+  </div>
+  <div class="clear"></div> 
+  <div class="footer-bottom">
+    <div class="footer-links">
+      257 tutorials and counting
+    </div>
+    <span class="footer-star">
+      <img alt="Footerflower" height="25" src="./Overview   12mm LED Pixels   Adafruit Learning System_files/footerflower-baae889228f80f00a337500117a631a3.png" width="25">
+    </span>
+    <div class="footer-powered">
+      Powered by Adafruit Learning Technologies
+    </div>
+  </div>
+</div>
+</div>
+  </div>
+
+    <!-- Google Analytics -->
+    <div class="fit-vids-style">­<style>               .fluid-width-video-wrapper {                 width: 100%;                              position: relative;                       padding: 0;                            }                                                                                   .fluid-width-video-wrapper iframe,        .fluid-width-video-wrapper object,        .fluid-width-video-wrapper embed {           position: absolute;                       top: 0;                                   left: 0;                                  width: 100%;                              height: 100%;                          }                                       </style></div><script type="text/javascript" async="" src="./Overview   12mm LED Pixels   Adafruit Learning System_files/ga.js"></script><script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-7723544-1']);
+      _gaq.push(['_setDomainName', 'adafruit.com']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>
+  <script src="./Overview   12mm LED Pixels   Adafruit Learning System_files/application-8c3252a69e05ccfa0b2134a1c5d5d80c.js" type="text/javascript"></script>
+
+<ul class="ui-autocomplete ui-menu ui-widget ui-widget-content ui-corner-all" id="ui-id-1" tabindex="0" style="z-index: 1031; display: none;"></ul><script id="hiddenlpsubmitdiv" style="display: none;"></script><script>try{for(var lastpass_iter=0; lastpass_iter < document.forms.length; lastpass_iter++){ var lastpass_f = document.forms[lastpass_iter]; if(typeof(lastpass_f.lpsubmitorig2)=="undefined"){ lastpass_f.lpsubmitorig2 = lastpass_f.submit; lastpass_f.submit = function(){ var form=this; var customEvent = document.createEvent("Event"); customEvent.initEvent("lpCustomEvent", true, true); var d = document.getElementById("hiddenlpsubmitdiv"); for(var i = 0; i < document.forms.length; i++){ if(document.forms[i]==form){ d.innerText=i; } } d.dispatchEvent(customEvent); form.lpsubmitorig2(); } } }}catch(e){}</script></body></html>

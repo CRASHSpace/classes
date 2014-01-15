@@ -1,0 +1,65 @@
+if( document.images )
+{
+<!--On & Off-->
+  but1 = new Image(145,30) ;
+  but1.src = "pics/menu/home_on.gif";
+  but2 = new Image(145,30) ;
+  but2.src = "pics/menu/shop_on.gif";
+  but3 = new Image(145,30) ;
+  but3.src = "pics/menu/links_on.gif";
+  but4 = new Image(145,30) ;
+  but4.src = "pics/menu/new_on.gif";
+  but5 = new Image(145,30) ;
+  but5.src = "pics/menu/soldering_on.gif";
+  but6 = new Image(145,30) ;
+  but6.src = "pics/menu/specials_on.gif";
+  but7 = new Image(145,30) ;
+  but7.src = "pics/menu/shipping_on.gif";
+  but8 = new Image(145,30) ;
+  but8.src = "pics/menu/gallery_on.gif";
+  but9 = new Image(145,30) ;
+  but9.src = "pics/menu/about_on.gif";
+  but10 = new Image(145,30) ;
+  but10.src = "pics/menu/elves_on.gif";
+  but11 = new Image(145,30) ;
+  but11.src = "pics/menu/disco_on.gif";
+  but12 = new Image(145,30) ;
+  but12.src = "pics/menu/funhouse_on.gif";
+  but13 = new Image(145,30) ;
+  but13.src = "pics/menu/directions_on.gif";
+  but14 = new Image(145,30) ;
+  but14.src = "pics/menu/guarantee_on.gif";
+  but15 = new Image(145,30) ;
+  but15.src = "pics/menu/warranty_on.gif";
+  but21 = new Image(145,30) ;
+  but21.src = "pics/menu/home_off.gif";
+  but22 = new Image(145,30) ;
+  but22.src = "pics/menu/shop_off.gif";
+  but32 = new Image(145,30) ;
+  but32.src = "pics/menu/links_off.gif";
+  but42 = new Image(145,30) ;
+  but42.src = "pics/menu/new_off.gif";
+  but52 = new Image(145,30) ;
+  but52.src = "pics/menu/soldering_off.gif";
+  but62 = new Image(145,30) ;
+  but62.src = "pics/menu/specials_off.gif";
+  but72 = new Image(145,30) ;
+  but72.src = "pics/menu/shipping_off.gif";
+  but82 = new Image(145,30) ;
+  but82.src = "pics/menu/gallery_off.gif";
+  but92 = new Image(145,30) ;
+  but92.src = "pics/menu/about_off.gif";
+  but102 = new Image(145,30) ;
+  but102.src = "pics/menu/elves_off.gif";
+  but112 = new Image(145,30) ;
+  but112.src = "pics/menu/disco_off.gif";
+  but122 = new Image(145,30) ;
+  but122.src = "pics/menu/funhouse_off.gif";
+  but132 = new Image(145,30) ;
+  but132.src = "pics/menu/directions_off.gif";
+  but142 = new Image(145,30) ;
+  but142.src = "pics/menu/guarantee_off.gif";
+  but152 = new Image(145,30) ;
+  but152.src = "pics/menu/warranty_off.gif";
+<!--Add additional sets as needed-->
+}

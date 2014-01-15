@@ -1,0 +1,543 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0071)http://kaytdek.trevorshp.com/projects/conductive/tutorial/tutorial.html -->
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/template.dwt" codeOutsideHTMLIsLocked="false" --><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Soft Electronics Tutorials</title>
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="head" -->
+<link rel="shortcut icon" href="http://kaytdek.trevorshp.com/design/favicon.ico">
+<link href="./Normal LEDS Electronics Tutorials_files/style.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="./Normal LEDS Electronics Tutorials_files/shadowbox.css">
+<script type="text/javascript" async="" src="./Normal LEDS Electronics Tutorials_files/cse.js"></script><script type="text/javascript" src="./Normal LEDS Electronics Tutorials_files/etsy_mini_shop.js"></script>
+<script type="text/javascript" src="./Normal LEDS Electronics Tutorials_files/shadowbox.js"></script>
+<script type="text/javascript">
+Shadowbox.init(
+	{continuous: true,
+	displayCounter: false,
+	overlayColor: "#331217"}
+);
+</script>
+<!-- InstanceEndEditable -->
+<link href="./Normal LEDS Electronics Tutorials_files/style.css" rel="stylesheet" type="text/css">
+<script src="./Normal LEDS Electronics Tutorials_files/jsapi" type="text/javascript"></script><link type="text/css" href="./Normal LEDS Electronics Tutorials_files/default+en.css" rel="stylesheet"><link type="text/css" href="./Normal LEDS Electronics Tutorials_files/default.css" rel="stylesheet"><script type="text/javascript" src="./Normal LEDS Electronics Tutorials_files/default+en.I.js"></script><script type="text/javascript" src="./Normal LEDS Electronics Tutorials_files/search.I.js"></script><style type="text/css">
+.gsc-control-cse {
+font-family: Arial, sans-serif;
+border-color: #CBBDC0;
+background-color: #CBBDC0;
+}
+.gsc-control-cse .gsc-table-result {
+font-family: Arial, sans-serif;
+}
+input.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus {
+border-color: #D9D9D9;
+}
+input.gsc-search-button, input.gsc-search-button:hover, input.gsc-search-button:focus {
+border-color: #999999;
+background-color: #773344;
+background-image: none;
+filter: none;
+}
+.gsc-tabHeader.gsc-tabhInactive {
+border-color: #E9E9E9;
+background-color: #E9E9E9;
+}
+.gsc-tabHeader.gsc-tabhActive {
+border-color: #CCCCCC;
+border-bottom-color: #FFFFFF;
+background-color: #FFFFFF;
+}
+.gsc-tabsArea {
+border-color: #CCCCCC;
+}
+.gsc-webResult.gsc-result,
+.gsc-results .gsc-imageResult {
+border-color: #FFFFFF;
+background-color: #FFFFFF;
+}
+.gsc-webResult.gsc-result:hover,
+.gsc-imageResult:hover {
+border-color: #FFFFFF;
+background-color: #FFFFFF;
+}
+.gs-webResult.gs-result a.gs-title:link,
+.gs-webResult.gs-result a.gs-title:link b,
+.gs-imageResult a.gs-title:link,
+.gs-imageResult a.gs-title:link b {
+color: #773344;
+}
+.gs-webResult.gs-result a.gs-title:visited,
+.gs-webResult.gs-result a.gs-title:visited b,
+.gs-imageResult a.gs-title:visited,
+.gs-imageResult a.gs-title:visited b {
+color: #773344;
+}
+.gs-webResult.gs-result a.gs-title:hover,
+.gs-webResult.gs-result a.gs-title:hover b,
+.gs-imageResult a.gs-title:hover,
+.gs-imageResult a.gs-title:hover b {
+color: #773344;
+}
+.gs-webResult.gs-result a.gs-title:active,
+.gs-webResult.gs-result a.gs-title:active b,
+.gs-imageResult a.gs-title:active,
+.gs-imageResult a.gs-title:active b {
+color: #773344;
+}
+.gsc-cursor-page {
+color: #773344;
+}
+a.gsc-trailing-more-results:link {
+color: #773344;
+}
+.gs-webResult .gs-snippet,
+.gs-imageResult .gs-snippet,
+.gs-fileFormatType {
+color: #666666;
+}
+.gs-webResult div.gs-visibleUrl,
+.gs-imageResult div.gs-visibleUrl {
+color: #666666;
+}
+.gs-webResult div.gs-visibleUrl-short {
+color: #666666;
+}
+.gs-webResult div.gs-visibleUrl-short {
+display: none;
+}
+.gs-webResult div.gs-visibleUrl-long {
+display: block;
+}
+.gs-promotion div.gs-visibleUrl-short {
+display: none;
+}
+.gs-promotion div.gs-visibleUrl-long {
+display: block;
+}
+.gsc-cursor-box {
+border-color: #FFFFFF;
+}
+.gsc-results .gsc-cursor-box .gsc-cursor-page {
+border-color: #E9E9E9;
+background-color: #FFFFFF;
+color: #773344;
+}
+.gsc-results .gsc-cursor-box .gsc-cursor-current-page {
+border-color: #CCCCCC;
+background-color: #FFFFFF;
+color: #773344;
+}
+.gsc-webResult.gsc-result.gsc-promotion {
+border-color: #FFFFFF;
+background-color: #FFFFFF;
+}
+.gsc-completion-title {
+color: #773344;
+}
+.gsc-completion-snippet {
+color: #666666;
+}
+.gs-promotion a.gs-title:link,
+.gs-promotion a.gs-title:link *,
+.gs-promotion .gs-snippet a:link {
+color: #773344;
+}
+.gs-promotion a.gs-title:visited,
+.gs-promotion a.gs-title:visited *,
+.gs-promotion .gs-snippet a:visited {
+color: #773344;
+}
+.gs-promotion a.gs-title:hover,
+.gs-promotion a.gs-title:hover *,
+.gs-promotion .gs-snippet a:hover {
+color: #773344;
+}
+.gs-promotion a.gs-title:active,
+.gs-promotion a.gs-title:active *,
+.gs-promotion .gs-snippet a:active {
+color: #773344;
+}
+.gs-promotion .gs-snippet,
+.gs-promotion .gs-title .gs-promotion-title-right,
+.gs-promotion .gs-title .gs-promotion-title-right * {
+color: #666666;
+}
+.gs-promotion .gs-visibleUrl,
+.gs-promotion .gs-visibleUrl-short {
+color: #666666;
+}
+</style><style type="text/css">.gssb_c{border:0;position:absolute;z-index:989}.gssb_e{border:1px solid #ccc;border-top-color:#d9d9d9;box-shadow:0 2px 4px rgba(0,0,0,0.2);-webkit-box-shadow:0 2px 4px rgba(0,0,0,0.2);cursor:default}.gssb_f{visibility:hidden;white-space:nowrap}.gssb_k{border:0;display:block;position:absolute;top:0;z-index:988}.gsdd_a{border:none!important}.gsib_a{width:100%;padding:4px 6px 0}.gsib_a,.gsib_b{vertical-align:top}.gssb_a{padding:0 7px}.gssb_a,.gssb_a td{white-space:nowrap;overflow:hidden;line-height:22px}#gssb_b{font-size:11px;color:#36c;text-decoration:none}#gssb_b:hover{font-size:11px;color:#36c;text-decoration:underline}.gssb_g{text-align:center;padding:8px 0 7px;position:relative}.gssb_h{font-size:15px;height:28px;margin:0.2em;-webkit-appearance:button}.gssb_i{background:#eee}.gss_ifl{visibility:hidden;padding-left:5px}.gssb_i .gss_ifl{visibility:visible}a.gssb_j{font-size:13px;color:#36c;text-decoration:none;line-height:100%}a.gssb_j:hover{text-decoration:underline}.gssb_l{height:1px;background-color:#e5e5e5}.gssb_m{color:#000;background:#fff}.gsq_a{padding:0}.gscsep_a{display:none}.gsfe_a{border:1px solid #b9b9b9;border-top-color:#a0a0a0;box-shadow:inset 0px 1px 2px rgba(0,0,0,0.1);-moz-box-shadow:inset 0px 1px 2px rgba(0,0,0,0.1);-webkit-box-shadow:inset 0px 1px 2px rgba(0,0,0,0.1);}.gsfe_b{border:1px solid #4d90fe;outline:none;box-shadow:inset 0px 1px 2px rgba(0,0,0,0.3);-moz-box-shadow:inset 0px 1px 2px rgba(0,0,0,0.3);-webkit-box-shadow:inset 0px 1px 2px rgba(0,0,0,0.3);}.gscb_a{display:inline-block;font:27px/13px arial,sans-serif}.gsst_a .gscb_a{color:#a1b9ed;cursor:pointer}.gsst_a:hover .gscb_a,.gsst_a:focus .gscb_a{color:#36c}.gsst_a{display:inline-block}.gsst_a{cursor:pointer;padding:0 4px}.gsst_a:hover{text-decoration:none!important}.gsst_b{font-size:16px;padding:0 2px;user-select:none;-webkit-user-select:none;white-space:nowrap}.gsst_e{opacity:0.55;}.gsst_a:hover .gsst_e,.gsst_a:focus .gsst_e{opacity:0.72;}.gsst_a:active .gsst_e{opacity:1;}.gsst_f{background:white;text-align:left}.gsst_g{background-color:white;border:1px solid #ccc;border-top-color:#d9d9d9;box-shadow:0 2px 4px rgba(0,0,0,0.2);-webkit-box-shadow:0 2px 4px rgba(0,0,0,0.2);margin:-1px -3px;padding:0 6px}.gsst_h{background-color:white;height:1px;margin-bottom:-1px;position:relative;top:-1px}.gssb_a{padding:0 9px}.gsib_a{padding-right:8px;padding-left:8px}.gsst_a{padding-top:3px}.gssb_e{border:0}.gssb_l{margin:5px 0}.gssb_c .gsc-completion-container{position:static}.gssb_c{z-index:5000}.gsc-completion-container table{background:transparent;font-size:inherit;font-family:inherit}.gssb_c > tbody > tr,.gssb_c > tbody > tr > td,.gssb_d,.gssb_d > tbody > tr,.gssb_d > tbody > tr > td,.gssb_e,.gssb_e > tbody > tr,.gssb_e > tbody > tr > td{padding:0;margin:0;border:0}.gssb_a table,.gssb_a table tr,.gssb_a table tr td{padding:0;margin:0;border:0}</style></head>
+<body>
+<div id="top"></div>
+<div class="wrapper">
+  <div class="main">
+<!-- InstanceBeginEditable name="menu" -->
+    <ul id="menu">
+      <h2>Navigation</h2>
+      <li><a href="http://kaytdek.trevorshp.com/index.htm" class="home">Home<span></span></a></li>
+      <li><a href="http://kaytdek.trevorshp.com/graphics/graphics.htm" class="graphics">Graphics<span></span></a></li>
+      <li><a href="http://kaytdek.trevorshp.com/sew/sewing.htm" class="sewing">Sewing<span></span></a></li>
+      <li><a href="http://kaytdek.trevorshp.com/projects/projects.htm" class="projects2">Projects<span></span></a></li>
+      <li><a href="http://kaytdek.trevorshp.com/other/other.htm" class="other">Other<span></span></a></li>
+    </ul>
+    <!-- InstanceEndEditable --><!-- InstanceBeginEditable name="main" -->
+    
+    <div class="unit">
+    <h1><a name="top"></a>Soft Electronics Tutorials</h1>
+    <p>Sewing circuits isn't that tricky - anyone can do it with a<a href="http://kaytdek.trevorshp.com/projects/conductive/tutorial/tutorial_electronics.htm"> basic knowledge of electronics</a> and the right <a href="http://kaytdek.trevorshp.com/projects/conductive/tutorial/tutorial.html#materials">materials</a>. I wrote a few tutorials below to help show you how!</p>
+    
+    <div class="featuredUnit">
+      <p>Need materials?  You can buy starter soft circuit kits in my <a href="http://www.etsy.com/shop/ConductiveThreads">Etsy Shop</a>!</p>
+      <div align="center">
+      
+	  <script type="text/javascript">new Etsy.Mini(7612347,'gallery',2,1,1,'http://www.etsy.com');</script><iframe frameborder="0" src="./Normal LEDS Electronics Tutorials_files/mini.html" width="390" height="245"></iframe></div>
+    </div><br>
+
+      <h3>Tutorial Topics</h3>
+      <h4>Basic Electronics</h4>
+      <ul>
+      <li><a href="http://kaytdek.trevorshp.com/projects/conductive/tutorial/tutorial_electronics.htm#basics">Electricity</a></li>
+      <li><a href="http://kaytdek.trevorshp.com/projects/conductive/tutorial/tutorial_electronics.htm#current">Current, Voltage and Resistance</a></li>
+      <li><a href="http://kaytdek.trevorshp.com/projects/conductive/tutorial/tutorial_electronics.htm#components">Components</a></li>
+      <li><a href="http://kaytdek.trevorshp.com/projects/conductive/tutorial/tutorial_electronics.htm#circuits">Circuits</a></li>
+      <li><a href="http://kaytdek.trevorshp.com/projects/conductive/tutorial/tutorial_electronics.htm#laws">Current and Voltage Laws</a></li>
+      <li><a href="http://kaytdek.trevorshp.com/projects/conductive/tutorial/tutorial_electronics.htm#analysis">Simple Analysis</a></li>
+      <li><a href="http://kaytdek.trevorshp.com/projects/conductive/tutorial/tutorial_electronics.htm#tricolor">Building a circuit: Tricolor LED + Photoresistors</a></li>
+      </ul>
+      <h4>Analog Soft Electronics</h4>
+      <ul>
+      <li><a href="http://kaytdek.trevorshp.com/projects/conductive/tutorial/tutorial.html#materials">specialized materials</a></li>
+      <li><a href="http://kaytdek.trevorshp.com/projects/conductive/tutorial/tutorial.html#components">sewing with components</a></li>
+      <li><a href="http://kaytdek.trevorshp.com/projects/conductive/tutorial/tutorial.html#battery">coin cell battery case</a></li>
+      <li><a href="http://kaytdek.trevorshp.com/projects/conductive/tutorial/tutorial.html#button">soft push-button</a></li>
+      <li><a href="http://kaytdek.trevorshp.com/projects/conductive/tutorial/tutorial.html#simple">single LED circuit</a></li>
+      <li><a href="http://kaytdek.trevorshp.com/projects/conductive/tutorial/tutorial.html#parallel">parallel LED circuit</a></li>
+      <li><a href="http://kaytdek.trevorshp.com/projects/conductive/tutorial/tutorial.html#tricolor">tricolor LED with photoresistors</a></li>
+      <li><a href="http://kaytdek.trevorshp.com/projects/conductive/tutorial/tutorial.html#multi">multimeter basics</a></li>
+      </ul>
+      <h4>Digital Soft Electronics</h4>
+      <ul>
+      <li><a href="http://kaytdek.trevorshp.com/projects/conductive/tutorial/tutorial.html#arduino">Arduino basics</a></li>
+      <li><a href="http://kaytdek.trevorshp.com/projects/conductive/tutorial/tutorial.html#variable">variable input Arduino circuit</a></li>
+      <li><a href="http://kaytdek.trevorshp.com/projects/conductive/tutorial/tutorial.html#piezo">piezo piano Arduino circuit</a></li>
+      <li>more to come!</li>
+      </ul>
+      <br clear="all">
+    </div>
+      
+      <br clear="all">
+      <div class="unit"><a name="materials"></a>
+      <div style="float:right;font-size:small"><a href="http://kaytdek.trevorshp.com/projects/conductive/tutorial/tutorial.html#top">back to top</a></div>
+      <h2>Specialized Materials</h2>
+      <p>The tools and materials for creating soft circuits are pretty standard: you need your electronic components and their tools, and your soft materials and their tools. Anything that conducts electricity can be interesting here: snaps can be switches; hooks and eyes can too. There is only one special ingredient: <a href="http://www.sparkfun.com/products/8544">conductive thread</a>. This embroidery-floss-like material is the wire that makes soft circuits possible.  Below is a little video on Conductive Thread if you want to learn more about it!</p>
+      <center><iframe width="640" height="360" src="./Normal LEDS Electronics Tutorials_files/XT5ygUt8Cbk.html" frameborder="0" allowfullscreen=""></iframe></center>
+      <p>If you are thinking of doing digital electronics, check out the <a href="http://www.arduino.cc/en/Main/ArduinoBoardLilyPad">Lilypad Arduino</a>, an open-source programmable microcontroller designed especially for sewing and use with conductive thread.</p>
+      <p>Not sure you want to invest in a whole spool of conductive thread? I sell affordable soft electronics starter kits in my <a href="http://www.etsy.com/shop/ConductiveThreads">etsy store</a>!</p>
+    </div>
+      <br clear="all">
+      <div class="unit"><a name="components"></a>
+      <div style="float:right;font-size:small"><a href="http://kaytdek.trevorshp.com/projects/conductive/tutorial/tutorial.html#top">back to top</a></div>
+      <h2>Sewing with components</h2>
+<a href="http://kaytdek.trevorshp.com/projects/conductive/tutorial/IMG_6136-800.jpg" rel="shadowbox[components]"><img src="./Normal LEDS Electronics Tutorials_files/IMG_6136-800-380.jpg" width="380" height="343" alt="components sewn onto fabric" style="float:left;margin:10px"></a>
+    <p>To sew traditional components one must make them into sewable buttons. Using needle-nosed players, bend the leads of the components into little sewable loops, then sew them down with at least three stitches of conductive thread.</p>
+      <p>If the component will be under physical pressure, reinforce the conductive thread stitches with normal thread, which is stronger.</p> <br clear="all">
+      <a href="http://kaytdek.trevorshp.com/projects/conductive/tutorial/arduino/IMG_4981-800.jpg" rel="shadowbox[components]"><img src="./Normal LEDS Electronics Tutorials_files/IMG_4981-400.jpg" alt="solid core wire with soldered snaps at one terminal" style="float:right;margin:10px"></a>     
+  <p>Another option to connect between hard and soft elements in a circuit is to terminate the soft portion with a snap. A mate can be made by soldering a piece of wire onto the other half of the snap.</p>
+      <p>This technique can be used for switches, but also to allow a portion of the circuit to be disconnected before washing.</p>
+      <p>Use normal cotton / polyester thread to secure the snap after sewing it with conductive thread.</p>
+<br clear="all">
+     <a href="http://kaytdek.trevorshp.com/projects/conductive/tutorial/IMG_9277-800.jpg" rel="shadowbox[components]"><img src="./Normal LEDS Electronics Tutorials_files/IMG_9277-800-380.jpg" alt="bending LED leads" width="380" height="285" style="float:left;margin:10px"></a>
+<p>For diodes and other components with a polarity, bend the negative lead into a square, and the positive  lead into a circle. This allows you to tell them apart easily after they are bent.</p>
+
+      <p>LEDs have a longer positive lead, and a flat bit on the plastic edge on the negative side.</p>
+      <p>(This wise idea by <a href="http://sternlab.org/2009/11/ledsewing/">Becky Stern</a>.  Make your own convention and stick with it!)</p>
+<br clear="all">
+</div>
+      <br clear="all">
+      <div class="unit"><a name="battery"></a>
+    <div style="float:right;font-size:small"><a href="http://kaytdek.trevorshp.com/projects/conductive/tutorial/tutorial.html#top">back to top</a></div>
+      <h2>Coin cell battery case</h2>
+      <p>Materials: 2 squares of felt (smaller than the battery), 1 small square of fabric (larger than the battery) and the project to which the battery pack will be attached. Conductive fabric optional.</p>
+      <a href="http://kaytdek.trevorshp.com/projects/conductive/tutorial/IMG_9281-800.jpg" rel="shadowbox[battery]"><img src="./Normal LEDS Electronics Tutorials_files/IMG_9281-800-380.jpg" alt="close-up of felt patch with conductive trace" width="380" height="285" style="float:left;margin:10px"></a><p>Using the conductive thread, sew one small square of felt down to your project, making lots of zig zags that are less than the width of the battery.</p>
+            <p>If you have conductive fabric, you can use a little patch of that instead of thread zig zags. Stitch conductive thread in the conductive fabric to go to the rest of the circuit.</p>
+          <p> The felt isn't strictly necessary, but it helps the electrical contact by raising the conductive material, increasing the squeeze on the battery. The point is to make a nice place for the battery to make contact.</p><br clear="all">
+          <a href="http://kaytdek.trevorshp.com/projects/conductive/tutorial/IMG_9284-800.jpg" rel="shadowbox[simple]"><img src="./Normal LEDS Electronics Tutorials_files/IMG_9284-800-380.jpg" alt="the other side of the battery pouch" width="380" height="285" style="float:right;margin:10px"></a>
+          <p>With a new trace of conductive thread (or a new piece of conductive fabric), sew the other piece of felt to the small square which will be the battery pouch in the same manner: try to make lots of space for electrical contact with your battery.</p>          
+          <br clear="all">
+        <a href="http://kaytdek.trevorshp.com/projects/conductive/tutorial/IMG_6135-800.jpg" rel="shadowbox[battery]"><img src="./Normal LEDS Electronics Tutorials_files/IMG_6135-800-380.jpg" alt="battery case example" width="356" height="380" style="float:left;margin:10px"></a>
+          <p>Align the two patches, and sew up 3 sides to create a pocket. This is easier on an embroidery hoop.</p>
+          <p>The tighter you sew the pocket, the better the electrical connections will be. Sometimes my battery packs act as buttons too -- you have to push them to make the electricity flow.</p>
+        
+      
+      <br clear="all">
+</div>
+      <br clear="all">
+      <div class="unit"><a name="button"></a>
+    <div style="float:right;font-size:small"><a href="http://kaytdek.trevorshp.com/projects/conductive/tutorial/tutorial.html#top">back to top</a></div>
+      <h2>Soft push-button</h2>
+      <a href="http://kaytdek.trevorshp.com/projects/conductive/tutorial/IMG_9290-800.jpg" rel="shadowbox[button]"><img src="./Normal LEDS Electronics Tutorials_files/IMG_9290-800-380.jpg" width="380" height="285" style="float:right;margin:10px"></a>
+        <p>Materials: conductive thread, felt, fabric.</p>
+            <p>Cut a small (finger-tip-sized) hole in the center of a piece of felt.</p>
+          <p>Using conductive thread, sew a zig-zag on your bottom layer of fabric slightly larger than the hole, and another zig-zag on the top piece of fabric. Or, use traces of conductive fabric instead of zig-zags.</p>
+          
+        <br clear="all">
+        <a href="http://kaytdek.trevorshp.com/projects/conductive/tutorial/IMG_9292-800.jpg" rel="shadowbox[button]"><img src="./Normal LEDS Electronics Tutorials_files/IMG_9292-800-380.jpg" width="300" style="float:left;margin:10px"></a>
+          Create a sandwich of the felt doughnut between conductive thread traces. The doughnut will hold the traces apart until force is applied.
+          <br clear="all">
+          <a href="http://kaytdek.trevorshp.com/projects/conductive/tutorial/IMG_9291-800.jpg" rel="shadowbox[button]"><img src="./Normal LEDS Electronics Tutorials_files/IMG_9291-800-380.jpg" width="300" style="float:right;margin:10px"></a>
+          <p>Align the traces over the doughnut hole. Sew to the rest of the circuit, being careful the two conductive thread pieces won't touch without being pushed.</p>
+          <br clear="all">
+          <a href="http://kaytdek.trevorshp.com/projects/conductive/tutorial/IMG_3137-800.jpg" rel="shadowbox[button]"><img src="./Normal LEDS Electronics Tutorials_files/IMG_6137-800-380.jpg" alt="push button example" width="380" height="376" style="float:left;margin:10px"></a>
+          <p>Stitch around the outside of the button to hold all the pieces in place, using normal thread.</p>
+           <p>Ta da! A soft push-button which can be added to any circuit.</p>
+          <p>Use more layers of felt doughnuts for a less sensitive button.</p>
+
+      <br clear="all">
+      </div>
+      <br clear="all">
+      <div class="unit"><a name="simple"></a>
+    <div style="float:right;font-size:small"><a href="http://kaytdek.trevorshp.com/projects/conductive/tutorial/tutorial.html#top">back to top</a></div>
+      <h2>Single LED circuit</h2>
+      <a href="http://kaytdek.trevorshp.com/projects/conductive/tutorial/IMG_9276-800.jpg" rel="shadowbox[simple]"><img src="./Normal LEDS Electronics Tutorials_files/IMG_9276-800-380.jpg" width="380" height="285" alt="image of tools and materials" style="float:right;margin:10px"></a>
+      <p>To make a soft circuit with a battery and a single LED:</p>
+          Materials needed:
+            <ul>
+          <li>Scissors</li>
+          <li>Needle-nose pliers</li>
+          <li>Sewing needle</li>
+          <li>Embroidery hoop</li>
+          <li>Normal thread</li>
+          <li>Conductive thread</li>
+          <li>3V coin cell battery</li>
+          <li>2 pieces of felt (smaller than battery)</li>
+          <li>Fabric square for battery pouch</li>
+          <li>Fabric to sew onto</li>
+          <li>1 LED with forward voltage less than 3V</li>
+          <li>Fabric glue (optional, not shown)</li>
+          </ul>          
+          <br clear="all">
+          <a href="http://kaytdek.trevorshp.com/projects/conductive/tutorial/IMG_9279-800.jpg" rel="shadowbox[simple]"><img src="./Normal LEDS Electronics Tutorials_files/IMG_9279-800-380.jpg" alt="one side of battery connected to one side of the LED" width="380" height="285" style="float:left;margin:10px"></a>
+          <p>Using the pliers, bend the LED's leads into <a href="http://kaytdek.trevorshp.com/projects/conductive/tutorial/tutorial.html#components">sewable loops</a>.</p>
+            <p>Sew one side of a <a href="http://kaytdek.trevorshp.com/projects/conductive/tutorial/tutorial.html#battery">coin cell battery case</a> onto your large piece of fabric.</p>
+          <p>Then, stitch over to one side of your LED and sew it down with at least 3 stitches. Tie the end, cut the thread, and put a drop of glue on the knot to keep it secure.</p>
+          <br clear="all">
+          <a href="http://kaytdek.trevorshp.com/projects/conductive/tutorial/IMG_9286-800.jpg" rel="shadowbox[simple]"><img src="./Normal LEDS Electronics Tutorials_files/IMG_9286-800-380.jpg" alt="completed circuit" width="380" height="285" style="float:left;margin:10px"></a>
+          <p>Sew with conductive thread from the top of the battery pouch  to the other lead of the LED, making sure not to touch your first trace (this would cause a short circuit!). Knot and cut your thread.</p>
+            <p>Note: because our 3V coin cell battery can't supply much current, we don't need to worry about  burning out the LED or using a resistor here.</p>
+            <br clear="all">
+            <a href="http://kaytdek.trevorshp.com/projects/conductive/tutorial/IMG_9287-800.jpg" rel="shadowbox[simple]"><img src="./Normal LEDS Electronics Tutorials_files/IMG_9287-800-380.jpg" alt="another view of completed circuit" width="380" height="285" style="float:right;margin:10px"></a>
+            <p>Before going any further, put the battery between the two pieces of felt and see if your light turns on. If it doesn't work, flip the battery around. If it still doesn't work, check you aren't short circuiting somewhere!</p>
+          <p>In this view, I've opened the upper flap of the battery pack. Note how the two pieces of conductive thread, one for each side of the circuit, are not touching anywhere!</p>
+       
+       <br clear="all">
+       <a href="http://kaytdek.trevorshp.com/projects/conductive/tutorial/IMG_9288-800.jpg" rel="shadowbox[simple]"><img src="./Normal LEDS Electronics Tutorials_files/IMG_9288-800-380.jpg" alt="back view of the circuit" width="380" height="285" style="float:left;margin:10px"></a>
+       <p>The threads behind the LED (top of hoop) do not touch. There are two separate traces here: the positive trace and the negative trace. If they accidentally touch, the LED won't turn on because current can flow directly from one side of the battery to the other, bypassing the LED.</p>
+        <br clear="all">
+        <a href="http://kaytdek.trevorshp.com/projects/conductive/tutorial/IMG_6132-800.jpg" rel="shadowbox[simple]"><img src="./Normal LEDS Electronics Tutorials_files/IMG_6132-800-380.jpg" alt="finished circuit" width="358" height="380" style="float:right;margin:10px"></a>
+        <p>Got it to light up? Great! Now, sew around 3 sides of the battery pouch with normal thread so that you can remove and replace the coin cell battery.</p>
+          <p>In this example, the battery slips in to the pocket from the left.</p>
+          
+      <p>Now, decorate your circuit to make it pretty! Or, try something more complex, like using several LEDs in parallel. But keep track of your positives and negatives!
+        
+      </p>
+      <br clear="all">
+    </div>
+    <br clear="all">
+    <div class="unit"><a name="parallel"></a>
+    <div style="float:right;font-size:small"><a href="http://kaytdek.trevorshp.com/projects/conductive/tutorial/tutorial.html#top">back to top</a></div>
+      <h2>Parallel LED circuit</h2>
+      <a href="http://kaytdek.trevorshp.com/projects/conductive/tutorial/IMG_6130-800.jpg" rel="shadowbox[tricolor]"><img src="./Normal LEDS Electronics Tutorials_files/IMG_6130-800-380.jpg" style="float:right; margin:10px"></a>
+      <p>Sewing a soft circuit with a battery and a two LEDs involves nearly the same steps as  a single LED circuit.</p>
+      <p>You begin by creating that loop containing the battery and one LED. Again, we don't need to worry about using a resistor because the conductive thread has some resistance and the coin cell battery cannot supply <em>that</em> much current.</p>
+      <p>Aside on battery cases: In the example on the right, I used a <a href="http://www.digikey.com/scripts/dksearch/dksus.dll?vendor=0&keywords=BA2032SM-ND">hard battery case</a> instead of a soft one. Hard battery cases are easy to use and hold the battery snugly so there is no flickering - however they are bulky and less attractive. It's up to you what type to use!</p>
+      <p>Once you have the first loop done, simply add another LED by sewing from the positive leg of the second LED to the conductive trace leading to the positive leg of the first LED. Then sew the negative leg of the second LED to the conductive trace leading from the battery to the negative leg of the first LED.</p>
+      <p>The only trick here is to make sure your LEDs are oriented in the same direction!</p>
+      <p>&nbsp;</p>
+      
+      <br clear="all">
+    </div>
+     <br clear="all">
+    <div class="unit"><a name="tricolor"></a>
+    <div style="float:right;font-size:small"><a href="http://kaytdek.trevorshp.com/projects/conductive/tutorial/tutorial.html#top">back to top</a></div>
+      <h2>Tricolor LED with Photoresistors</h2>
+      <center><iframe src="./Normal LEDS Electronics Tutorials_files/63506104.html" width="800" height="450" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe> <p><a href="http://vimeo.com/63506104">Sewn Circuit with Tricolor LED and Three Photosensitive Resistors</a> from <a href="http://vimeo.com/kaytdek">katie dektar</a> on <a href="http://vimeo.com/">Vimeo</a>.</p></center>
+      <a href="http://kaytdek.trevorshp.com/projects/conductive/tutorial/IMG_6168-800.jpg" rel="shadowbox[tricolor]"><img src="./Normal LEDS Electronics Tutorials_files/IMG_6168-800-380.jpg" style="float:right;margin:10px"></a>
+      <p>Creating a circuit with a color-changing tricolor LED is actually pretty simple.  All you need is the <a href="http://kaytdek.trevorshp.com/projects/conductive/tutorial/tutorial.html#simple">tools</a> for creating a simple LED circuit, as well as 3 photosensitive resistors, one tricolor LED, a 9V battery and a battery clip. </p>
+      <p>If you don't have these just laying around, you can buy the <a href="https://www.etsy.com/listing/128723786">Tricolor LED Kit</a> from my Etsy store!</p>
+      <p>Before we get started: if you aren't sure about the electronics behind this circuit, check out the <a href="http://kaytdek.trevorshp.com/projects/conductive/tutorial/tutorial_electronics.htm#tricolor">electronics tutorial</a> on it.</p>
+      <p><a href="http://kaytdek.trevorshp.com/projects/conductive/tutorial/IMG_6183-800.jpg" rel="shadowbox[tricolor]"><img src="./Normal LEDS Electronics Tutorials_files/IMG_6183-800-380.jpg" style="float:right;margin:10px"></a>
+      Next, bend the leads of the components to make them easy to sew.  I bent the legs of the three photosensitive resistors into little loops - the same on both sides - because they have no polarity.  I bent the stranded wire from the ends of the battery clip into loops also because polarity is denoted by the wire color.</p>
+      <p>For my tricolor LED, the long leg is a common ground. I bent that one into a square to denote negative, and the other three I bent into circles at different heights so that I would be able to sew to them individually.</p>      
+      <a href="http://kaytdek.trevorshp.com/projects/conductive/tutorial/IMG_6187-800.jpg" rel="shadowbox[tricolor]"><img src="./Normal LEDS Electronics Tutorials_files/IMG_6187-800-380.jpg" style="float:right;margin:10px"></a>
+	  <p>I then sewed my circuit together: 
+      </p><p>I connected the negative side of the battery to the common anode (square leg) with one piece of conductive thread.</p>
+      <p>With another piece of thread, I sewed from the positive side of the battery to one side of each of the 3 photosensitive resistors.  After sewing one side of each resistor down, I cut and tied that piece of thread.</p>
+      <p>With a single piece of thread, I sewed from one of the remaining legs of the LED to the other side of one of the photosensitive resistors.  I repeated this with the other two legs of the LED.</p>
+      <p>&nbsp;</p>
+      <a href="http://kaytdek.trevorshp.com/projects/conductive/tutorial/IMG_6189-800.jpg" rel="shadowbox[tricolor]"><img src="./Normal LEDS Electronics Tutorials_files/IMG_6189-800-380.jpg" style="float:left;margin:10px"></a>
+	  <p>Because the resistance changes with light, I can change the color of the LED by covering up the resistors or by shining a light on them (see video below).</p>
+      <p>This is the same circuit that is inside my <a href="http://kaytdek.trevorshp.com/projects/conductive/conductive.htm#sheep">needlefelted sheep</a>.  The fun thing about soft electronics is that they can be shaped and molded into anything - no need to stick with a 2D surface like in this tutorial!</p>
+      
+      <br clear="all">
+    </div>
+    <br clear="all">
+    <div class="unit"><a name="multi"></a>
+        <div style="float:right;font-size:small"><a href="http://kaytdek.trevorshp.com/projects/conductive/tutorial/tutorial.html#top">back to top</a></div>
+      <h2>Multimeter Basics</h2>
+      <p>A multimeter  is a must-have for serious electronics, but one can get away without one for these basic circuits. Should you be looking to expand your horizons, consider grabbing one! Then you can check voltage, current, resistance and connectivity to help debug and test circuits (multi=many, meter=measure).</p>
+     <img src="./Normal LEDS Electronics Tutorials_files/IMG_4175-380.jpg" width="304" height="380" style="float:left;margin:10px">
+     <p>I got my multimeter from <a href="http://www.newark.com/tenma/72-7725/multimeter-digital-handheld-3-1/dp/02J5539">Newark.com</a>, an electronics supply company. This one was $28, which is enough to get a good digital multimeter.</p>
+          <p>This multimeter came with the normal leads, but also alligator clips (useful) and temperature sensors (neat). It also came with a battery, which I appreciated.</p>
+      <br clear="all">
+      <img src="./Normal LEDS Electronics Tutorials_files/IMG_4176-380.jpg" alt="multimeter leads up close" width="380" height="253" style="float:right;margin:10px">
+      <p>Multimeters have several ports where you can plug in the leads. The black/ground always goes in COM, and the red/power moves around. You move the power to <em>mA</em> for measuring small currents, and to <em>20A max</em> for large currents. If you don't do this right, it can blow the fuse in the multimeter!</p>
+          <p>Always check you have the red plugged into the correct port before turning on the multimeter and your circuit.</p>
+       <br clear="all">
+       <img src="./Normal LEDS Electronics Tutorials_files/IMG_4178-380.jpg" alt="measuring voltage" width="254" height="380" style="margin:10px;float:left">
+       <p>When measuring stuff, you have to turn the dial to tell the multimeter what you want to measure. For voltage and current you can choose between AC (alternating current, ~) and DC (direct current, &nbsp;—). Batteries supply direct current, while your wall supplies alternating.</p>
+            <p>You always put the dial at a number that is greater than or equal to the value you expect. If I want to measure a 9 volt battery (left), I turn the dial to V, 20. If I set it to 2, I won't be able to see the voltage (off the charts!), while if I set it to 200, there won't be enough accuracy to tell me exactly the right number.</p>
+            <p>To measure voltage, you put the leads across the component (in parallel with the component). To the left I measure the voltage of a 9 volt battery -- at 8.99 volts it seems pretty charged!</p>
+        <br clear="all">
+        <img src="./Normal LEDS Electronics Tutorials_files/IMG_4182-380.jpg" alt="measuring resistance" width="380" height="253" style="margin:10px;float:right">
+        <p>To measure resistance, you again set the dial to greater than or equal to your expected value. If you don't know, guess and check! To the right I measure a resistor that is about 100 ohms.</p>
+        <br clear="all">
+        <img src="./Normal LEDS Electronics Tutorials_files/IMG_4183-380.jpg" alt="measuring resistance" width="287" height="380" style="margin:10px;float:left">
+        <p>What happens to two resistors in parallel? The resistance halves! Two 100 ohm resistors in parallel are measured to the left.</p>
+            <p>You can remember this because it is like having two 'pipes' for the electrons to flow through -- more space for flowing is sort of like a bigger pipe.</p>
+          <p>Resistance is measured by the voltage drop from the red to black lead: V=IR all the way!</p>
+          
+        <br clear="all">
+        <img src="./Normal LEDS Electronics Tutorials_files/IMG_4179-380.jpg" alt="connectivity / diode test" width="380" height="343" style="margin:10px;float:right">
+          <p>My favorite setting on a multimeter is the connectivity setting. You can touch the two leads to anything, and if the multimeter beeps than they are electrically connected with very low to no resistance. A wire, a piece of metal, a cup of salty water, a tongue -- all these things make the meter beep!</p>
+          <p>This connectivity setting is also the 'diode test' setting. Here I test an LED by hooking it up to the leads and switching the multimeter to diode test/connectivity. I'm not sure what the number displayed on the screen means, but then I haven't read the manual.</p>
+          <p>I believe connectivity is tested just by sending a little current through the leads.</p>
+      <p>Finally, measuring current! To measure current you must do two really important things so as not to break your multimeter. </p>
+      <p>1. <strong>Switch the red lead to the correct port</strong> -- 20mA or 20A depending on what you expect. If you don't know, play it safe by starting on the 20A setting.</p>
+      <p>2. <strong>Hook up the multimeter in series</strong> with the part of your circuit whose current you wish to measure. Series means that the electrons which flow through your circuit will also flow through the multimeter. There are no branches. If you do hook up the multimeter in parallel, the low resistance within the multimeter will allow all the current to flow through it, instantly blowing out the fuse!</p>
+      <p>After making sure you did 1 and 2, you may turn on the multimeter and read the current.</p>
+    </div>
+    <br clear="all">
+    
+    <div class="unit"><a name="arduino"></a>
+    <div style="float:right;font-size:small"><a href="http://kaytdek.trevorshp.com/projects/conductive/tutorial/tutorial.html#top">back to top</a></div>
+    <h2>Arduino Basics</h2>
+    
+    <p>Interactive electronics can be far more fun and interesting than simple circuits, but creating a 'smart' circuit requires much more know-how.  Unless, of course, you have a programmable microcontroller!</p>
+    <p>A <a href="http://en.wikipedia.org/wiki/Microcontroller" target="_blank">microcontroller</a> is like a small computer, able to store and execute a set of instructions via input/output pins.  Programmable microcontrollers like the <a href="http://kaytdek.trevorshp.com/projects/conductive/tutorial/www.arduino.cc" target="_blank">Arduino</a> are great for hobbies and prototypes of electronics because they are easy to use.  The Arduino is one of the most popular microcontrollers because it is inexpensive and open-source.  There is a lot of documentation and many code samples available for Arduino.</p>
+    <img src="./Normal LEDS Electronics Tutorials_files/IMG_4660-400.jpg" alt="arduino uno" width="400" height="266" style="float:right;margin:10px;">
+    <p>I use two Arduinos for my soft circuits.  I start by prototyping my circuit using the Arduino Uno, which I got from <a href="http://www.newark.com/arduino/a000046/arduino-uno-board/dp/13T9285?in_merch=Popular%20Products" target="_blank">Newark</a>.  The Uno is a great board - it has a power regulator built in, so you don't have to worry about connecting the power backwards.  It also has a USB converter on-board allowing it to be immediately hooked up to a computer.</p>
+    <br clear="all">
+    <img src="./Normal LEDS Electronics Tutorials_files/lilypad.png" alt="lilypad arduino" width="322" height="282" style="float:left;margin:10px">
+    <p>When I am done prototyping with the Uno, I transfer my code and circuit to the Lilypad Arduino, available on <a href="http://www.sparkfun.com/products/9266" target="_blank">Sparkfun</a>.  This is a smaller, lighter Arduino on a board with holes through petals pins meant for sewing.  However, the Lilypad does not have a power regulator so you have to be very careful not to break it by connecting power inappropriately, and also it requires a <a href="http://www.sparkfun.com/products/10275" target="_blank">separate piece</a> to connect to a computer via USB.</p>
+    <br clear="all">
+    <p>Programming the Arduino is relatively simple.  To get everything hooked up and ready to go, download the <a href="http://arduino.cc/en/Main/Software" target="_blank">Arduino software</a> and follow the <a href="http://arduino.cc/en/Guide/HomePage" target="_blank">getting started guide</a>.        
+    </p><p>Once everything is hooked up, we will make the orange LED on the Arduino Uno blink. Hint: the final code is on the below; you can type it in yourself or load it from the Arduino sample libraries,  File -&gt; Examples -&gt; 01.Basics -&gt; Blink.    </p>
+    <div class="code"><pre><span style="color: #7E7E7E;">//setup&nbsp;is&nbsp;run&nbsp;once&nbsp;at&nbsp;the&nbsp;beginning:</span>
+<span style="color: #CC6600;">void</span> <span style="color: #CC6600;"><b>setup</b></span>() {
+}
+
+<span style="color: #7E7E7E;">//&nbsp;the&nbsp;loop&nbsp;routine&nbsp;runs&nbsp;over&nbsp;and&nbsp;over&nbsp;again&nbsp;forever:</span>
+<span style="color: #CC6600;">void</span> <span style="color: #CC6600;"><b>loop</b></span>() {
+}
+</pre></div>
+    <p>First, every Arduino program must consist of two functions: setup() and loop(). The setup() function is run once at the beginning of execution; usually it will initialize variables and setup pins as input or output. The loop() function is run over and over again for the rest of the time. When the Arduino is reset or unplugged it will start from setup() again.</p>
+    <p>Because we want to blink the LED attached to pin 13, we will need to set pin 13 to be in 'output' mode. Arduino pins can be either input or output, meaning during a program you can either read the voltage at a pin or write a voltage to it (but not do both). To set the pin mode, set 
+    <span style="color: #CC6600;">pinMode</span>(13,<span style="color: #006699;">OUTPUT</span>);</p>
+    <div class="unit">
+    <h3>A quick note on color</h3>
+    <img src="./Normal LEDS Electronics Tutorials_files/01_reservedWords_ard.png" height="67" width="170" style="float:right;margin:10px;border:1px dashed #AAAAAA">
+    <p>The Arduino GUI (graphical user interface) will automatically color reserved words orange, and static constants blue. This helps you tell if you typed something correctly, and also keeps you from using reserved keywords for other variables. To the left, pinmode (lowercase 'm') is not orange, while pinMode (uppercase 'M') is. This tells me that pinMode is the correct function.</p>
+    </div>
+    
+    <p>Now for loop().  We want our LED to blink: one second on, then one second off, then repeat.  The repeat is exactly what loop() will give us, so let's write code inside of loop() to do the turning on and turning off.</p>
+   <div class="code">
+    <pre><span style="color: #7E7E7E;">//&nbsp;the&nbsp;loop&nbsp;routine&nbsp;runs&nbsp;over&nbsp;and&nbsp;over&nbsp;again&nbsp;forever:</span>
+<span style="color: #CC6600;">void</span> <span style="color: #CC6600;"><b>loop</b></span>() {
+&nbsp;&nbsp;<span style="color: #CC6600;">digitalWrite</span>(13,<span style="color: #006699;">HIGH</span>);
+&nbsp;&nbsp;<span style="color: #CC6600;">digitalWrite</span>(13,<span style="color: #006699;">LOW</span>);
+}</pre></div>
+    <p>To turn on a digital pin such as pin 13, you simply 'write' to that pin the value 'HIGH'.  HIGH means the high voltage (i.e. 5V when connected to the computer, or 3V when connected to a 3V battery).  Similarly, LOW means the ground voltage, 0V.   </p> 
+    <p>Unfortunately, the code above doesn't work.  (Try uploading it to your Arduino with the -&gt; button and see!)
+    The reason? We don't wait between turning it on and turning it off.  
+    </p><div class="code">
+    <pre><span style="color: #7E7E7E;">//&nbsp;the&nbsp;loop&nbsp;routine&nbsp;runs&nbsp;over&nbsp;and&nbsp;over&nbsp;again&nbsp;forever:</span>
+<span style="color: #CC6600;">void</span> <span style="color: #CC6600;"><b>loop</b></span>() {
+&nbsp;&nbsp;<span style="color: #CC6600;">digitalWrite</span>(13,<span style="color: #006699;">HIGH</span>);
+&nbsp;&nbsp;<span style="color: #CC6600;">delay</span>(1000);
+&nbsp;&nbsp;<span style="color: #CC6600;">digitalWrite</span>(13,<span style="color: #006699;">LOW</span>);
+&nbsp;&nbsp;<span style="color: #CC6600;">delay</span>(1000);
+}
+</pre>
+    </div>  
+    <p>To add the delay between turning it on and turning it off, we use the function delay(ms). The argument to this is the number of milliseconds to wait. Since we want to have one second on and one second off, we will set delay(1000).</p>
+    <p>Put it all together and you get a blinking LED, controlled by the Arduino microcontroller and programmed by you yourself! Don't forget to test it with a LED: place the positive lead in pin 13 and the negative lead in ground and watch the blinkage.</p>
+    <p align="center"><img src="./Normal LEDS Electronics Tutorials_files/01_blink_ard.png" alt="full program" width="579" height="693"><br clear="all">
+    </p>
+    </div>
+    <br clear="all">
+    <div class="unit">
+    <a name="variable"></a>
+    <h2>Variable Input: Arduino to Soft Circuit</h2>
+        <img src="./Normal LEDS Electronics Tutorials_files/variable_input01.jpg" width="300" style="float:left;margin:10px">
+
+    <p>This simple Arduino project demonstrates how to get input and use it to do something -- in this case, change the brightness of an LED.</p>
+    <p>Our goal is to figure out the amount of light hitting the photosensitive resistor and use that to change the brightness of the LED. The circuit uses 3 <a href="http://kaytdek.trevorshp.com/projects/conductive/tutorial/tutorial_electronics.htm#components">components</a>: one LED, one resistor, and one photosensitive resistor.</p>
+    <p>To control the LED, we can connect the negative end to ground, but connect the positive end to a Arduino pin that we can control. When we change the voltage of our 'out' pin, the brightness of the LED will also change.</p>
+    <p>We will use the two resistors to set up a 'voltage divider', in which the resistors are placed in <a href="http://kaytdek.trevorshp.com/projects/conductive/tutorial/tutorial_electronics.htm#series">series</a> between ground and power, and we measure the voltage at their junction. We know that the total voltage drop across both resistors must be equal to the voltage of the power (in this case, if power is at +5 volts than the voltage drop across both must be 5 volts). We also know that the current through two elements in series is the same, but V=IR says that if their resistances are different we have different voltage drops across each.</p>
+            <a href="http://kaytdek.trevorshp.com/projects/conductive/tutorial/arduino/IMG_4980-800.jpg" rel="shadowbox[variable]"><img src="./Normal LEDS Electronics Tutorials_files/IMG_4980-400.jpg" width="300" style="margin:10px;float:right;"></a>
+
+    <p>Basically we get the equation V=IR for each resistor. Because I1 = I2, and V1 + V2 = 5, we can simplify this to V1 / R1 = (5 - V1) / R2 and thus see that R1 / R2 = V1 / (5 - V1). We see that the ratio of the resistances impacts the voltage drop across each resistor.</p>
+    <p>Ok, enough electronics; let's get coding.</p>
+    <img src="./Normal LEDS Electronics Tutorials_files/variableInputCode.png" style="float:left;margin:10px">
+    <p>We will start by creating the 2 components of any Arduino project: the setup() and the loop() functions. Before going into these, we can also set variables to represent the pins that we want to use for input and output. In this case, I use pin 11 to control the LED, and the analog input pin 5 to read the voltage from my voltage divider.</p>
+    <p>In setup(), I let the Arduino know that pin 11 will be used for output. Because analog pin 5 is an input-only pin, I don't need to initialize it.</p>
+    <p>In the loop() function, we will read the voltage in from the inputPin, and write that exact voltage to the outputPin.</p>
+    <p>Upload it, and plug it all in, and there you have it! A simple Arduino circuit controlling the brightness of an LED with an Arduino!</p>
+    <br clear="all">
+    <p></p>
+    </div>
+    <br clear="all">
+    <div class="unit">
+    <a name="piezo"></a>
+    <h2>Piezo Piano: Arduino Soft Circuit</h2>
+    <p>More description coming soon!</p>
+    <a href="http://kaytdek.trevorshp.com/projects/conductive/tutorial/arduino/IMG_4979-800.jpg" rel="shadowbox[piezo]"><img src="./Normal LEDS Electronics Tutorials_files/IMG_4979-400.jpg" style="margin:10px;float:left"></a>
+    <br clear="all">
+    </div>
+    <!-- InstanceEndEditable -->
+</div>
+<div class="timestamp">
+  <div style="width:300px;margin-left:auto;margin-right:auto;">
+<script>
+  (function() {
+    var cx = '006560524559059617634:x2k9ozioe78';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<div id="___gcse_0"><div class="gsc-control-cse gsc-control-cse-en"><div class="gsc-control-wrapper-cse" dir="ltr"><form class="gsc-search-box gsc-search-box-tools" accept-charset="utf-8"><table cellspacing="0" cellpadding="0" class="gsc-search-box"><tbody><tr><td class="gsc-input"><div class="gsc-input-box" id="gsc-iw-id1"><table cellspacing="0" cellpadding="0" id="gs_id0" class="gstl_0 " style="width: 100%; padding: 0px;"><tbody><tr><td id="gs_tti0" class="gsib_a"><input autocomplete="off" type="text" size="10" class="gsc-input" name="search" title="search" id="gsc-i-id1" style="width: 100%; padding: 0px; border: none; margin: -0.0625em 0px 0px; height: 1.25em; outline: none; background-image: url(http://www.google.com/cse/intl/en/images/google_custom_search_watermark.gif); background-color: rgb(255, 255, 255); background-position: 0% 50%; background-repeat: no-repeat no-repeat;" dir="ltr" spellcheck="false"></td><td class="gsib_b"><div class="gsst_b" id="gs_st0" dir="ltr"><a class="gsst_a" href="javascript:void(0)" style="display: none;"><span class="gscb_a" id="gs_cb0">×</span></a></div></td></tr></tbody></table></div></td><td class="gsc-search-button"><input type="image" src="./Normal LEDS Electronics Tutorials_files/search_box_icon.png" class="gsc-search-button gsc-search-button-v2" title="search"></td><td class="gsc-clear-button"><div class="gsc-clear-button" title="clear results">&nbsp;</div></td></tr></tbody></table><table cellspacing="0" cellpadding="0" class="gsc-branding"><tbody><tr><td class="gsc-branding-user-defined"></td><td class="gsc-branding-text"><div class="gsc-branding-text">powered by</div></td><td class="gsc-branding-img"><img src="./Normal LEDS Electronics Tutorials_files/small-logo.png" class="gsc-branding-img"></td></tr></tbody></table></form><div class="gsc-results-wrapper-overlay"><div class="gsc-results-close-btn" tabindex="0"></div><div class="gsc-tabsAreaInvisible"><div class="gsc-tabHeader gsc-inline-block gsc-tabhActive">Web</div><span class="gs-spacer"> </span><div tabindex="0" class=" gsc-tabHeader gsc-tabhInactive gsc-inline-block">Image</div><span class="gs-spacer"> </span></div><div class="gsc-refinementsAreaInvisible"></div><div class="gsc-above-wrapper-area-invisible"><table cellspacing="0" cellpadding="0" class="gsc-above-wrapper-area-container"><tbody><tr><td class="gsc-result-info-container"><div class="gsc-result-info-invisible"></div></td><td class="gsc-orderby-container"><div class="gsc-orderby-invisible"><div class="gsc-orderby-label gsc-inline-block">Sort by:</div><div class="gsc-option-menu-container gsc-inline-block"><div class="gsc-selected-option-container gsc-inline-block"><div class="gsc-selected-option">Relevance</div><div class="gsc-option-selector"></div></div><div class="gsc-option-menu-invisible"><div class="gsc-option-menu-item gsc-option-menu-item-highlighted"><div class="gsc-option">Relevance</div></div><div class="gsc-option-menu-item"><div class="gsc-option">Date</div></div></div></div></div></td></tr></tbody></table></div><div class="gsc-adBlockInvisible"></div><div class="gsc-wrapper"><div class="gsc-adBlockInvisible"></div><div class="gsc-resultsbox-invisible"><div class="gsc-resultsRoot gsc-tabData gsc-tabdActive"><table cellspacing="0" cellpadding="0" class="gsc-resultsHeader"><tbody><tr><td class="gsc-twiddleRegionCell"><div class="gsc-twiddle"><div class="gsc-title">Web</div></div><div class="gsc-stats"></div><div class="gsc-results-selector gsc-all-results-active"><div class="gsc-result-selector gsc-one-result" title="show one result">&nbsp;</div><div class="gsc-result-selector gsc-more-results" title="show more results">&nbsp;</div><div class="gsc-result-selector gsc-all-results" title="show all results">&nbsp;</div></div></td><td class="gsc-configLabelCell"></td></tr></tbody></table><div><div class="gsc-expansionArea"></div></div></div><div class="gsc-resultsRoot gsc-tabData gsc-tabdInactive"><table cellspacing="0" cellpadding="0" class="gsc-resultsHeader"><tbody><tr><td class="gsc-twiddleRegionCell"><div class="gsc-twiddle"><div class="gsc-title">Image</div></div><div class="gsc-stats"></div><div class="gsc-results-selector gsc-all-results-active"><div class="gsc-result-selector gsc-one-result" title="show one result">&nbsp;</div><div class="gsc-result-selector gsc-more-results" title="show more results">&nbsp;</div><div class="gsc-result-selector gsc-all-results" title="show all results">&nbsp;</div></div></td><td class="gsc-configLabelCell"></td></tr></tbody></table><div><div class="gsc-expansionArea"></div></div></div></div></div></div><div class="gsc-modal-background-image" tabindex="0"></div></div></div></div>
+</div>
+<center>
+  Comments, suggestions, questions? e-mail kaytdek(at)gmail.com. Please do not use any content on this site without permission from and credit to Katie Dektar. Last updated 2013
+  </center>
+</div>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script src="./Normal LEDS Electronics Tutorials_files/ga.js" type="text/javascript"></script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-2418587-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+
+<!-- InstanceEnd -->
+</div><div id="sb-container"><div id="sb-overlay"></div><div id="sb-wrapper"><div id="sb-title"><div id="sb-title-inner"></div></div><div id="sb-wrapper-inner"><div id="sb-body"><div id="sb-body-inner"></div><div id="sb-loading"><div id="sb-loading-inner"><span>loading</span></div></div></div></div><div id="sb-info"><div id="sb-info-inner"><div id="sb-counter"></div><div id="sb-nav"><a id="sb-nav-close" title="Close" onclick="Shadowbox.close()"></a><a id="sb-nav-next" title="Next" onclick="Shadowbox.next()"></a><a id="sb-nav-play" title="Play" onclick="Shadowbox.play()"></a><a id="sb-nav-pause" title="Pause" onclick="Shadowbox.pause()"></a><a id="sb-nav-previous" title="Previous" onclick="Shadowbox.previous()"></a></div></div></div></div></div><table cellspacing="0" cellpadding="0" class="gstl_0 gssb_c" style="width: 189px; display: none; top: 16915px; position: absolute; left: 284px;"><tbody><tr><td class="gssb_f"></td><td class="gssb_e" style="width: 100%;"></td></tr></tbody></table><script id="hiddenlpsubmitdiv" style="display: none;"></script><script>try{for(var lastpass_iter=0; lastpass_iter < document.forms.length; lastpass_iter++){ var lastpass_f = document.forms[lastpass_iter]; if(typeof(lastpass_f.lpsubmitorig2)=="undefined"){ lastpass_f.lpsubmitorig2 = lastpass_f.submit; lastpass_f.submit = function(){ var form=this; var customEvent = document.createEvent("Event"); customEvent.initEvent("lpCustomEvent", true, true); var d = document.getElementById("hiddenlpsubmitdiv"); for(var i = 0; i < document.forms.length; i++){ if(document.forms[i]==form){ d.innerText=i; } } d.dispatchEvent(customEvent); form.lpsubmitorig2(); } } }}catch(e){}</script></body></html>

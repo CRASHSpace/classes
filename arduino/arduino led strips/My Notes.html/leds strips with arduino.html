@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><meta name="exporter-version" content="Evernote Mac 5.1.4 (401297)"/><meta name="author" content="matt pinner"/><meta name="created" content="2013-07-08 17:59:40 +0000"/><meta name="updated" content="2013-07-10 07:18:42 +0000"/><title>leds strips with arduino</title></head><body style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;">
+<font size="2"><b>Lighting Up</b></font>
+<div><font size="2"><b> - why Leds</b></font></div>
+<div><font size="2"><b> - types of Leds</b></font></div>
+<div><font size="2"><b> </b></font></div>
+<div><font size="2"><b>arduino</b></font></div>
+<div><font size="2"><b> - why arduino</b></font></div>
+<div><font size="2"><b> - why arduino</b></font></div>
+<div><font size="2"><b> - types</b></font></div>
+<div><font size="2"><b><br/></b></font></div>
+<div><font size="2"><b>power</b></font></div>
+<div><font size="2"><b> - batteries</b></font></div>
+<div><font size="2"><b> - tradeoffs</b></font></div>
+<div><font size="2"><br/></font></div>
+<div><font size="2"><br/></font></div>
+<div><font size="2"><br/></font></div>
+<div><font size="2"><br/></font></div>
+<div><font size="2"><br/></font></div>
+<div><font size="2"><br/></font></div>
+<div><br/></div>
+<div>
+<h3 style="margin: 0px; position: relative; color: rgb(51, 51, 51); background-color: rgb(255, 255, 255);"><font size="2"><span style="color: rgb(0, 0, 0); font-weight: normal;">Lighting Up</span><span style="color: rgb(0, 0, 0); font-weight: normal;"> </span></font></h3>
+<div><font size="2"><span style="color: rgb(0, 0, 0); font-weight: normal;"> - EL Wire</span></font></div>
+<div><font size="2"><span style="color: rgb(0, 0, 0); font-weight: normal;"> - Bulbs</span></font></div>
+<div><font size="2"><span style="color: rgb(0, 0, 0); font-weight: normal;"> - LEDs</span></font></div>
+<div><font size="2"><span style="color: rgb(0, 0, 0); font-weight: normal;"><br/></span></font></div>
+<div><span style="font-size: small;">EL Wire</span></div>
+<div><font size="2"><span style="color: rgb(0, 0, 0); font-weight: normal;"><br/></span></font></div>
+<div><font size="2"><span style="color: rgb(0, 0, 0); font-weight: normal;"><span><img src="leds%20strips%20with%20arduino.resources/images_2.jpeg" height="288" width="175"/><span><img src="leds%20strips%20with%20arduino.resources/imgres_3.jpeg" height="171" width="294"/></span><span><img src="leds%20strips%20with%20arduino.resources/imgres_1.jpeg" height="183" width="275"/></span></span><br/></span></font></div>
+<div><font size="2"><span style="color: rgb(0, 0, 0); font-weight: normal;"><span><br/></span></span></font></div>
+<div><span style="font-size: small;">EL Wire</span><font size="2"><span style="color: rgb(0, 0, 0); font-weight: normal;"><span><br/></span></span></font></div>
+<div><span style="font-size: small;"><br/></span></div>
+<div><font size="2"><span style="color: rgb(0, 0, 0); font-weight: normal;"><span>pros: diffuse light, flexible</span></span></font></div>
+<div><font size="2"><span style="color: rgb(0, 0, 0); font-weight: normal;"><span><br/></span></span></font></div>
+<div><font size="2"><span style="color: rgb(0, 0, 0); font-weight: normal;"><span>cons: </span></span></font></div>
+<div><font size="2"><span style="color: rgb(0, 0, 0); font-weight: normal;"><span> - high power </span></span></font></div>
+<div><font size="2"><span style="color: rgb(0, 0, 0); font-weight: normal;"><span> - few colors</span></span></font></div>
+<div><font size="2"><span style="color: rgb(0, 0, 0); font-weight: normal;"><span> - not very bright</span></span></font></div>
+<div><font size="2"><span style="color: rgb(0, 0, 0); font-weight: normal;"><span> - cost</span></span></font></div>
+<div><font size="2"><span style="color: rgb(0, 0, 0); font-weight: normal;"><span><br/></span></span></font></div>
+<div><font size="2"><span style="color: rgb(0, 0, 0); font-weight: normal;"><span><br/></span></span></font></div>
+<div><font size="2">Incandescent Bulbs</font> <br/></div>
+<div><font size="2"><span style="color: rgb(0, 0, 0); font-weight: normal;"><br/></span></font></div>
+<h3 style="margin: 0px; position: relative; color: rgb(51, 51, 51); background-color: rgb(255, 255, 255);"><span style="color: rgb(0, 0, 0); font-weight: normal;"><font size="2"><span><img src="leds%20strips%20with%20arduino.resources/images.jpeg" height="165" width="305"/></span><br/></font></span></h3>
+<div><span style="color: rgb(0, 0, 0); font-weight: normal;"><font size="2"><span><br/></span></font></span></div>
+<div><br/></div>
+<div><span style="color: rgb(0, 0, 0); font-weight: normal;"><font size="2"><span><span><img src="leds%20strips%20with%20arduino.resources/spectral_responses2.png" height="392" width="685"/></span><br/></span></font></span></div>
+<div><span style="color: rgb(0, 0, 0); font-weight: normal;"><font size="2"><span><span><img src="leds%20strips%20with%20arduino.resources/images_1.jpeg" height="183" width="275"/></span><br/></span></font></span></div>
+<div><span style="color: rgb(0, 0, 0); font-weight: normal;"><font size="2"><span><br/></span></font></span></div>
+<div><font size="2">Incandescent Bulbs</font> <br/></div>
+<div><br/></div>
+<div>pros: beautiful!</div>
+<div><font size="2"><br/></font></div>
+<div><font size="2">cons: </font></div>
+<div><font size="2"> - many colors </font></div>
+<div><font size="2"> - hot</font></div>
+<div><font size="2"> - high power</font></div>
+<div><span style="color: rgb(0, 0, 0); font-weight: normal;"><font size="2"><span><br/></span></font></span></div>
+<div><span style="color: rgb(0, 0, 0); font-weight: normal;"><font size="2"><span><br/></span></font></span></div>
+<div><br/></div>
+<div><br/></div>
+<div>LEDS</div>
+<div><br/></div>
+<div><img src="leds%20strips%20with%20arduino.resources/Red-YellowGreen-Blue_LED_spectra.png" height="565" width="800"/><br/></div>
+<div><span style="color: rgb(0, 0, 0); font-weight: normal;"><font size="2"><span><br/></span></font></span></div>
+<div><font size="2">SHAPES AND SIZES</font></div>
+<div><span style="color: rgb(0, 0, 0); font-weight: normal;"><font size="2"><span><span><img src="leds%20strips%20with%20arduino.resources/Verschiedene_LEDs.jpg" height="528" width="1500"/></span><br/></span></font></span></div>
+<h3 style="margin: 0px; position: relative; color: rgb(51, 51, 51); background-color: rgb(255, 255, 255);"><span style="color: rgb(0, 0, 0); font-weight: normal;"><font size="2"><br/></font></span></h3>
+<h3 style="margin: 0px; position: relative; color: rgb(51, 51, 51); background-color: rgb(255, 255, 255);"><span style="color: rgb(0, 0, 0); font-weight: normal;"><font size="2"><br/></font></span></h3>
+<div><font size="2">ALL THE SAME COLOR</font></div>
+<div><span style="color: rgb(0, 0, 0); font-weight: normal;"><font size="2"><br/></font></span></div>
+<div><span style="color: rgb(0, 0, 0); font-weight: normal;"><font size="2"><span><img src="leds%20strips%20with%20arduino.resources/led%20colors%2001%20b.jpg" height="326" width="535"/></span><br/></font></span></div>
+<div><span style="color: rgb(0, 0, 0); font-weight: normal;"><font size="2"><br/></font></span></div>
+<div><span style="color: rgb(0, 0, 0); font-weight: normal;"><font size="2"><br/></font></span></div>
+<div><br/>
+LEDS</div>
+<div><br/></div>
+<div>pros: </div>
+<div> - MANY shapes and sizes</div>
+<div> - low power and cool</div>
+<div> - bright!</div>
+<div><br/></div>
+<div>cons: </div>
+<div> - very few colors</div>
+<div> - binary</div>
+<div> - complex</div>
+<div> - ugly<span style="color: rgb(0, 0, 0); font-weight: normal;"><font size="2"><br/></font></span></div>
+<div><br/></div>
+<div><br/></div>
+<div><span style="color: rgb(0, 0, 0); font-weight: normal;"><font size="2"><span><br/></span></font></span></div>
+<div><span style="color: rgb(0, 0, 0); font-weight: normal;"><font size="2"><span>VERY FEW COLORS</span></font></span></div>
+<div><span style="color: rgb(0, 0, 0); font-weight: normal;"><font size="2"><span><br/></span></font></span></div>
+<div><span style="color: rgb(0, 0, 0); font-weight: normal;"><font size="2"><span><img src="leds%20strips%20with%20arduino.resources/shoppmlit.com_blog_led_semiconductors_and_wavelengths.JPG" height="363" width="516"/></span><br/></font></span></div>
+<div><span style="color: rgb(0, 0, 0); font-weight: normal;"><font size="2"><br/></font></span></div>
+<div><span style="color: rgb(0, 0, 0); font-weight: normal;"><font size="2"><br/></font></span></div>
+<p style="margin: 0px; padding: 0px; color: rgb(51, 51, 51); font-family: Muli, sans-serif; font-size: 12px; text-align: left; background-color: rgb(255, 255, 255);">The scientific notations above are as follows:</p>
+<ul style="margin: 0px; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Muli, sans-serif; font-size: 12px; text-align: left; background-color: rgb(255, 255, 255);">
+<li style="margin: 0px; padding: 0px;">Gallium Arsenide (GaAs) - infra-red</li>
+<li style="margin: 0px; padding: 0px;">Gallium Arsenide Phosphide (GaAsP) - red, orange, amber</li>
+<li style="margin: 0px; padding: 0px;">Gallium arsenide phosphide doped with nitrogen (GaAsP:N) - yellow</li>
+<li style="margin: 0px; padding: 0px;">Aluminium Gallium Phosphide (AlGaP) - green</li>
+<li style="margin: 0px; padding: 0px;">Silicon Carbide (SiC) - blue</li>
+<li style="margin: 0px; padding: 0px;">Aluminium Gallium Nitride (AlGaN) – ultraviolet</li>
+<li style="margin: 0px; padding: 0px;">Gallium Indium Nitride (GaInN) - white</li>
+</ul>
+<div style="text-align: left;"><font color="#333333" face="Muli, sans-serif" size="2"><br/></font></div>
+<div style="text-align: left;"><font color="#333333" face="Muli, sans-serif" size="2"><br/></font></div>
+<div style="text-align: left;"><font color="#333333" face="Muli, sans-serif" size="2">BINARY</font></div>
+<ul style="margin: 0px; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Muli, sans-serif; font-size: 12px; text-align: left; background-color: rgb(255, 255, 255);">
+<li style="margin: 0px; padding: 0px;"><span><img src="leds%20strips%20with%20arduino.resources/1000px-PnJunction-LED-E.svg.png" height="704" width="1000"/></span><br/></li>
+</ul>
+<div><br/></div>
+<div><br/></div>
+<div><br/></div>
+<div>MIXING, DIMMNG and PWM</div>
+<div><br/></div>
+<div><span><img src="leds%20strips%20with%20arduino.resources/atmega168a_pwm_04_lrg.jpg" height="200" width="1024"/></span><br/></div>
+<div><span><img src="leds%20strips%20with%20arduino.resources/atmega168a_pwm_02_lrg.jpg" height="508" width="1024"/></span><br/></div>
+<div><br/></div>
+<div><br/></div>
+<div><br/></div>
+<div><br/></div>
+<div><span style="color: rgb(0, 0, 0); font-weight: normal;"><font size="2"><span><br/></span></font></span></div>
+<h3 style="margin: 0px; position: relative; color: rgb(51, 51, 51); background-color: rgb(255, 255, 255);"><span style="color: rgb(0, 0, 0); font-weight: normal;"><font size="2"><br/></font></span></h3>
+<h3 style="margin: 0px; position: relative; color: rgb(51, 51, 51); background-color: rgb(255, 255, 255);"><span style="color: rgb(0, 0, 0); font-weight: normal;"><font size="2"><br/></font></span></h3>
+<h3 style="margin: 0px; position: relative; color: rgb(51, 51, 51); background-color: rgb(255, 255, 255);"><span style="color: rgb(0, 0, 0); font-weight: normal;"><font size="2"><br/></font></span></h3>
+<div><span style="color: rgb(0, 0, 0); font-weight: normal;"><font size="2"><br/></font></span></div>
+<div><span style="color: rgb(0, 0, 0); font-weight: normal;"><font size="2"><br/></font></span></div>
+<div><span style="color: rgb(0, 0, 0); font-weight: normal;"><font size="2"><span><img src="leds%20strips%20with%20arduino.resources/pwm.gif" height="438" width="400"/></span><br/></font></span></div>
+<div><br/></div>
+<h3 style="margin: 0px; position: relative; color: rgb(51, 51, 51); background-color: rgb(255, 255, 255);"><span style="color: rgb(0, 0, 0); font-weight: normal;"><font size="2"><br/></font></span></h3>
+<div><span><img src="leds%20strips%20with%20arduino.resources/led-types.jpg" height="320" width="470"/></span></div>
+<div><br/></div>
+<div><br/></div>
+<div><br/>
+MIXING and DIMMNG</div>
+<div> - color theory</div>
+<div> - pulsing… wow crazy timing</div>
+<div><br/></div>
+<div>microcontrollers for the win!</div>
+<div><br/></div>
+<div>ok.. smart LEDs are even better<br/></div>
+<div><br/></div>
+<div><br/></div>
+<div>chaining smart leds!</div>
+<div><span><img src="leds%20strips%20with%20arduino.resources/lpd8806-arduino-600.jpg" height="311" width="600"/></span><br/></div>
+<div><span><img src="leds%20strips%20with%20arduino.resources/12mm_flat_ws2801_ic_digital_addressable_rgb_led_pixels_50pcsstrand.jpg" height="400" width="400"/></span><br/></div>
+<div><span style="color: rgb(0, 0, 0); font-weight: normal;"><font size="2"><span><img src="leds%20strips%20with%20arduino.resources/WS2801-3LEDs-LED-Module.jpg" height="443" width="603"/></span><br/></font></span></div>
+<div><span style="color: rgb(0, 0, 0); font-weight: normal;"><font size="2"><span><span><img src="leds%20strips%20with%20arduino.resources/ws2801.png" height="413" width="732"/></span><br/></span></font></span></div>
+<div><span style="color: rgb(0, 0, 0); font-weight: normal;"><font size="2"><span><span><img src="leds%20strips%20with%20arduino.resources/ws2801data.jpg" height="711" width="1153"/></span><br/></span></font></span></div>
+<div><span style="color: rgb(0, 0, 0); font-weight: normal;"><font size="2"><span><img src="leds%20strips%20with%20arduino.resources/1365043483809-WS2812.jpg" height="1200" width="1600"/></span><br/></font></span></div>
+<div><span style="color: rgb(0, 0, 0); font-weight: normal;"><font size="2"><span><br/></span></font></span></div>
+<div><span style="color: rgb(0, 0, 0); font-weight: normal;"><font size="2"><span><span><img src="leds%20strips%20with%20arduino.resources/1365043483752-WS2811.jpg" height="1200" width="1600"/></span><br/></span></font></span></div>
+<div><span style="color: rgb(0, 0, 0); font-weight: normal;"><font size="2"><span><br/></span></font></span></div>
+<div><span style="color: rgb(0, 0, 0); font-weight: normal;"><font size="2"><br/></font></span></div>
+<div><span style="color: rgb(0, 0, 0); font-weight: normal;"><font size="2"><span><img src="leds%20strips%20with%20arduino.resources/imgres_2.jpeg" height="195" width="259"/><span><img src="leds%20strips%20with%20arduino.resources/1365043483752-WS2811.jpg" height="1200" width="1600"/></span></span><br/></font></span></div>
+<div><span style="color: rgb(0, 0, 0); font-weight: normal;"><font size="2"><span><img src="leds%20strips%20with%20arduino.resources/imgres.jpeg" height="194" width="259"/></span><br/></font></span></div>
+<div><span style="color: rgb(0, 0, 0); font-weight: normal;"><font size="2"><br/></font></span></div>
+<div><span style="color: rgb(0, 0, 0); font-weight: normal;"><font size="2"><br/></font></span></div>
+<div><span style="color: rgb(0, 0, 0); font-weight: normal;"><font size="2"><br/></font></span></div>
+<div><br/></div>
+<div>Clock and Data</div>
+<div><br/></div>
+<div><br/></div>
+<div><font size="2"><br/></font></div>
+<div><font size="2"><br/></font></div>
+<div><span style="font-size: small;">COLOR MIXING</span><font size="2"><br/></font></div>
+<div><font size="2"><br/></font></div>
+<div><font size="2"><br/></font></div>
+<div><font size="2">HIDE THE COMPLEXITY</font></div>
+<div><font size="2"><br/></font></div>
+<h3 style="margin: 0px; position: relative; color: rgb(51, 51, 51); background-color: rgb(255, 255, 255);"><span style="color: rgb(0, 0, 0); font-weight: normal;"><font size="2"><br/></font></span></h3>
+<h3 style="margin: 0px; position: relative; color: rgb(51, 51, 51); background-color: rgb(255, 255, 255);"><span style="color: rgb(0, 0, 0); font-weight: normal;"><font size="2"><br/></font></span></h3>
+<div><br/></div>
+<div><font size="2"><br/></font></div>
+<h3 style="margin: 0px; position: relative; color: rgb(51, 51, 51); background-color: rgb(255, 255, 255);"><span style="color: rgb(0, 0, 0); font-weight: normal;"><font size="2"><br/></font></span></h3>
+<div><font size="2">LEDS</font></div>
+<div><font size="2"><br/></font></div>
+<div><font size="2">- colors</font></div>
+<div><font size="2"> - mixxing</font></div>
+<div><font size="2"> - dimming</font></div>
+<div><span style="font-size: small;">- smart leds</span><span style="color: rgb(0, 0, 0); font-weight: normal;"><font size="2"><br/></font></span></div>
+<h3 style="margin: 0px; position: relative; color: rgb(51, 51, 51); background-color: rgb(255, 255, 255);"><span style="color: rgb(0, 0, 0); font-weight: normal;"><font size="2"><br/>
+Arduino : an intro</font></span></h3>
+<div><font size="2">a community :</font></div>
+<div><font size="2"> - LOTs of help, </font></div>
+<div><font size="2"> - tutorials, examples, projects,</font></div>
+<div><font size="2"> - forums, libraries, kits </font></div>
+<div><font size="2"><br/></font></div>
+<div><font size="2">microcontroller :</font></div>
+<div><font size="2"> - a very small (micro) computer</font></div>
+<div><font size="2"> - i/o, ram, storage, bias, network!</font></div>
+<div><font size="2"> - you can add your own peripherals</font></div>
+<div><font size="2"><br/></font></div>
+<div><font size="2">open standard :</font></div>
+<div><font size="2"> - anyone can improve it</font></div>
+<div><font size="2"> - it works with everything<br/></font></div>
+<div><font size="2"> - this makes it cheap</font></div>
+<div><font size="2"><br/></font></div>
+<div><font size="2">development environment : </font></div>
+<div><font size="2"> - your software interface</font></div>
+<div><font size="2"> - add, compile, run, and debug code</font></div>
+<div><font size="2"> - built for students to be easy</font></div>
+<div><font size="2"><br/></font></div>
+<div><font size="2">programming language :</font></div>
+<div><font size="2"> - java/c... sorta</font></div>
+<div><font size="2"> - the syntax and semantics are pretty useful</font></div>
+<div><font size="2"> - (show blink)</font></div>
+<div><font size="2"><br/></font></div>
+<div><font size="2">bootloader :</font></div>
+<div><font size="2"> - an OS</font></div>
+<div><font size="2"> - that loads code</font></div>
+<div><font size="2"> - it is The Magic</font></div>
+<div><font size="2"><br/></font></div>
+<div><font size="2">learn electronics:</font></div>
+<div><font size="2"> - circuits are easy</font></div>
+<div><font size="2"> - create circuits with no soldering</font></div>
+<div><font size="2"> - reusable parts make for free play</font></div>
+<div><font size="2"><br/></font></div>
+<div><font size="2">input / output:</font></div>
+<div><font size="2"> - many pins for input and output</font></div>
+<div><font size="2"> - capable of analog and digital</font></div>
+<div><font size="2"> - serial communication</font></div>
+<div><font size="2"> </font></div>
+<div><font size="2">programs are simple: </font></div>
+<div><font size="2"> - variables</font></div>
+<div><font size="2"> - setup and loop</font></div>
+<div><font size="2"> - libraries</font></div>
+<div><font size="2"><br/></font></div>
+<div><font size="2"><br/></font></div>
+<blockquote style="background-color: rgb(255, 255, 255); margin: 0px 0px 0px 40px; border-style: none; padding: 0px;"><br/></blockquote>
+</div>
+</body></html>
