@@ -1,0 +1,100 @@
+eagleCAD vocabulary of terms you should know by the end of this:
+ -computer aided design (CAD)
+ -libraries
+ -parts
+ -package
+ -symbol
+ -device
+ -project
+ -schematic
+ -circuit
+ -net
+ -board
+ -routing
+ -layers
+ -design rule check (dru)
+ -gerbers
+ -ulp
+
+
+other options:
+ -kicad
+ -fritzing
+ -$$$$
+
+eagle is nice because it is
+ - free to learn
+ - cross platform
+ - easily to fab from
+ - has libraries available
+ - the beginner tool of choice... sorta
+ - maker tool of choice.. sorta
+ - scripting / ULP !
+
+
+SCHEMATIC::
+
+01 ADD parts:
+new project, new schematic
+ADD is hard. the search is terrible. libraries need to be in "use"
+ADD GND
+ADD VCC
+ADD *atmega*
+ADD *crystal*
+PASSIVE parts are trickie... focus on the package
+
+02 wiring
+layout
+wire
+nets
+
+03 document
+label
+value
+
+
+BOARD::
+
+01 placement
+grids are important
+be logical
+learn about filtering caps
+
+02 outline
+add mounting holes and terminalblocks
+maybe this is too much already
+
+03 route
+save often
+layers are important
+auto route sucks mostly always
+
+04 dru
+import from your fab
+try lots of different ones
+
+05 graphics
+label everything
+import bmp
+save often
+
+
+FAB::
+
+01 have someone else look at it
+
+02 double check your BOM
+
+03 check your geometry
+
+04 oshpark is easy
+
+
+
+not covering:
+ - sweat graphics 
+ - circuit design
+ - ULPs
+ - eagleup
+ - routing and self manufacture
+
