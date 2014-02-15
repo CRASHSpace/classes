@@ -20,6 +20,7 @@ eagleCAD vocabulary of terms you should know by the end of this:
 other options:
  -kicad
  -fritzing
+ -upverter
  -$$$$
 
 eagle is nice because it is
@@ -54,6 +55,8 @@ value
 
 
 BOARD::
+
+this is generated continually from the SCHEMATIC... keep them together or die
 
 01 placement
 grids are important
